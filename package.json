@@ -1,0 +1,40 @@
+{
+  "name": "classe365-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 5000",
+    "build": "next build",
+    "start": "next start -p 5000",
+    "lint": "next lint",
+    "pm2:build": "npm run build && pm2 start npm --name client -- run start"
+  },
+  "dependencies": {
+    "@types/node": "20.6.3",
+    "@types/react": "18.2.22",
+    "@types/react-dom": "18.2.7",
+    "axios": "^1.5.0",
+    "babel-plugin-styled-components": "^2.1.4",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.5.2",
+    "next": "13.5.2",
+    "nprogress": "^0.2.0",
+    "react": "18.2.0",
+    "react-calendly": "^4.1.1",
+    "react-dom": "18.2.0",
+    "react-fast-marquee": "^1.6.2",
+    "react-form-stepper": "^2.0.3",
+    "react-google-charts": "^4.0.1",
+    "react-icons": "^4.11.0",
+    "react-lottie": "^1.2.3",
+    "react-switch": "^7.0.0",
+    "react-type-animation": "^3.1.0",
+    "styled-components": "^6.0.8",
+    "swiper": "^10.3.0",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/nprogress": "^0.2.1",
+    "@types/react-lottie": "^1.2.8"
+  }
+}
