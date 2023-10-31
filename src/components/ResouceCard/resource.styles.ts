@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const ResourceCardWrapper = styled.div`
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   max-width: 344px;
   span {
     color: #fff;
@@ -37,6 +37,7 @@ export const ImageWrapper = styled.div`
   img {
     max-width: 100%;
     height: auto;
+    border-radius: 12px;
   }
   /* height: 160px; */
 `;
