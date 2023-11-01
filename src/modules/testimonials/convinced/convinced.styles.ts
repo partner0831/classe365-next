@@ -65,3 +65,35 @@ export const SoftwareWrapper = styled.div`
     margin-top: 173px;
   }
 `;
+export const SoftwareImageWrapper = styled.div`
+  position: relative;
+  width: 100%;
+    border-radius: 12px;
+    contain: content;
+  max-width: 847px;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+  div {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      padding: 28px 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      top: 0;
+      left: 0;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.34) 0%, rgba(255, 255, 255, 0.80) 63.79%);
+      backdrop-filter: blur(2px);
+    p {
+        color: #1E2123;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px; /* 137.5% */
+      }
+  }
+`

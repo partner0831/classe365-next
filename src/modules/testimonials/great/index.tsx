@@ -16,12 +16,23 @@ export const GreatSoftware: React.FC = () => {
           <h2>Value for Money</h2>
         </Styled.SoftwareWrapper>
 
-        <Image
-          src={"/assets/images/testimonials/test2.png"}
-          width={847}
-          height={464}
-          alt="image"
-        />
+        <Styled.SoftwareImageWrapper>
+          <img src={"/assets/images/testimonials/test2.png"} alt="image" />
+          <div>
+            <p>
+              Cascais School of Arts & Design use Classe 365 since 2018. During
+              this years we needed some assistance and the team it was always
+              disposable to answer our questions and resolve little problems.
+              Sometimes they add new add ons with that tasks to the software and
+              included at new versions. During 5 years we follow the growing of
+              Classe365 from a small to a global company. They growth but they
+              continuous to answer us like when they were small and this is very
+              good and unfortunately never happen with companies that growing
+              sow fast. Ashley continues to be disposable to Big and small
+              companies and that's very good!
+            </p>
+          </div>
+        </Styled.SoftwareImageWrapper>
       </Styled.SoftwareView>
     </Styled.GreateWrapper>
   );

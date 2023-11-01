@@ -31,12 +31,18 @@ export const MeedOurCustomer: React.FC = () => {
           <h3>City of Charlotte, United States of America</h3>
         </Styled.SoftwareWrapper>
 
-        <Image
-          src={"/assets/images/testimonials/test1.png"}
-          width={847}
-          height={464}
-          alt="image"
-        />
+        <Styled.SoftwareImageWrapper>
+          <img src={"/assets/images/testimonials/test1.png"} alt="image" />
+          <div>
+            <p>
+              Classe365 is all about flexibility, affordability and
+              technological sophistication. Prior to Classe365, we had no CRM.
+              We expanded 60% of our human capital manually managing data. This
+              antiquated process was unproductive, it exhausted our human
+              capital and it made us more susceptible to errors
+            </p>
+          </div>
+        </Styled.SoftwareImageWrapper>
       </Styled.SoftwareView>
     </Styled.MeetWrapper>
   );

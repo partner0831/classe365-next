@@ -16,12 +16,20 @@ export const Convinced: React.FC = () => {
           <h2>Value for Money</h2>
         </Styled.SoftwareWrapper>
 
-        <Image
-          src={"/assets/images/testimonials/test3.png"}
-          width={847}
-          height={464}
-          alt="image"
-        />
+        <Styled.SoftwareImageWrapper>
+          <img src={"/assets/images/testimonials/test3.png"} alt="image" />
+          <div>
+            <p>
+              The best about Classe365 is how easy it is to create new fields,
+              new forms, new courses. It has a great flexibility. At the same
+              time I feel that all the information about our students and
+              courses are in a safe place. I also like a lot the relation to my
+              customer service dude, [sensitive content hidden], who is very
+              available, who knows everything about my institution and who has
+              always worked through every request until solution.
+            </p>
+          </div>
+        </Styled.SoftwareImageWrapper>
       </Styled.SoftwareView>
     </Styled.GreateWrapper>
   );

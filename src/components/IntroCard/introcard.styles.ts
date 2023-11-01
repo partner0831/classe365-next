@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const IntroCardWrapper = styled.div<{ color: string }>`
     background-color: ${({color})=>color?color:"#FAFAFA"};
     width: 594px;
-    height: 496px;
+    min-height: 496px;
     border-radius: 12px;
     padding: 40px 30px;
     h1{
