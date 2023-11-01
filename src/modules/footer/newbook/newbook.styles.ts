@@ -116,7 +116,7 @@ export const NewBookImageWrapper = styled.div`
     overflow-x: hidden;
   }
   img{
-    padding: 0 40px;
+    margin: 0 40px;
   }
   
   & > div {

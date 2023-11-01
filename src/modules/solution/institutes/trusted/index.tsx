@@ -10,7 +10,7 @@ export const Trusted: React.FC = () => {
       <Styled.ImageWrapper>
         {imgs.map((img, index) => (
           <div key={index}>
-            <img src={img} alt="" />
+            <img src={img.src} alt="" width={img.width} height={img.height} />
           </div>
         ))}
       </Styled.ImageWrapper>
