@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const GreateWrapper = styled.div`
   max-width: 1240px;
   width: 95%;
-  margin: auto;
+  margin: auto auto 160px auto;
   color: var(--site-heading, #1e2123);
   h1 {
     font-size: 32px;

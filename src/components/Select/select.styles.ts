@@ -9,6 +9,7 @@ export const SelectWrapper = styled.div`
     font-size: 16px;
     font-weight: 400;
     line-height: 30px; /* 187.5% */
+    
   }
   div {
     position: relative;
@@ -30,5 +31,13 @@ export const SelectWrapper = styled.div`
     padding: 0 16px;
     font-size: 16px;
     appearance: none;
+  }
+  option{
+    color: var(--text-grey-dark, #3B3F42);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
   }
 `;

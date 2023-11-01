@@ -25,6 +25,17 @@ export type IResourceCardProps = {
   badge_color: string;
   title: string;
 };
+export type IntroCardProps = {
+  header: string;
+  name: string;
+  role: string;
+  company: string;
+  feature: string;
+  description: string;
+  content: string;
+  color:string;
+  key:number
+};
 export type IReviewCardProps = {
   header: string;
   content1: string;

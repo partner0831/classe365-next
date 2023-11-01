@@ -39,7 +39,7 @@ export const MeetHeader = styled.div`
 export const SoftwareView =styled.div`
   display: flex;
   justify-content: space-between;
-  margin-top: 60px; 
+  margin-top: 93px; 
 
 `;
 export const SoftwareWrapper = styled.div`

@@ -10,6 +10,7 @@ export const Select: React.FC<ISelectProps> = ({
   placeholder,
   value,
 }) => {
+  console.log(options);
   return (
     <Styled.SelectWrapper>
       <span>{label}</span>
@@ -22,7 +23,7 @@ export const Select: React.FC<ISelectProps> = ({
         >
           {options.map((row, index) => (
             <option key={index} value={row.value}>
-              {label}
+              {row.label}
             </option>
           ))}
         </select>
