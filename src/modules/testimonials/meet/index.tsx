@@ -27,8 +27,10 @@ export const MeedOurCustomer: React.FC = () => {
             Classe365 is all about flexibility, affordability and technological
             sophistication.
           </h1>
-          <h2>The Mayor’s Youth Employment Program (MYEP)</h2>
-          <h3>City of Charlotte, United States of America</h3>
+          <div>
+            <h2>The Mayor’s Youth Employment Program (MYEP)</h2>
+            <h3>City of Charlotte, United States of America</h3>
+          </div>
         </Styled.SoftwareWrapper>
 
         <Styled.SoftwareImageWrapper>

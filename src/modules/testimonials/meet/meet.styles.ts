@@ -41,7 +41,10 @@ export const SoftwareView =styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 93px; 
-
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    
+  }
 `;
 export const SoftwareWrapper = styled.div`
   h1{
@@ -57,10 +60,16 @@ export const SoftwareWrapper = styled.div`
 
     margin-top: 181px !important;
   }
-  img{
-    width: 100%;
-    margin-left: 71px;
+
+@media screen and (max-width: 768px) {
+  margin-bottom: 50px;
+  h1, h2, h3{
+    max-width: 100%;
   }
+  h2 {
+    margin-top: 20px !important;
+  }
+}
 `;
 
 export const SoftwareImageWrapper = styled.div`
@@ -69,10 +78,10 @@ export const SoftwareImageWrapper = styled.div`
     border-radius: 12px;
     contain: content;
   max-width: 847px;
- 
+ margin-left: 64px;
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     object-position: center;
   }
@@ -95,4 +104,19 @@ export const SoftwareImageWrapper = styled.div`
         line-height: 22px; /* 137.5% */
       }
   }
+@media screen and (max-width: 768px) {
+  margin-left: 0;
+
+}
+@media screen and (max-width: 500px) {
+  /* padding: 28px; */
+  div {
+    padding: 28px;
+
+    position: relative;
+  }
+  img {
+    position: absolute;
+  }
+}
 `

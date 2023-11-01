@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const ReviewCardWrapper = styled.div<{ color?: string }>`
-    width: 391px;
+    max-width: 391px;
+    width: 100%;
     height: 424px;
     border-radius: 12px;
     padding: 27px 24px;
@@ -50,5 +51,13 @@ export const ReviewCardWrapper = styled.div<{ color?: string }>`
         font-style: normal;
         font-weight: 700;
         line-height: 22px; /* 122.222% */
+    }
+    @media screen and (max-width:425px) {
+        max-width: 100%;
+        width: 100%;
+        h1{
+            font-size: 24px;
+        }
+        height: fit-content;
     }
 `;

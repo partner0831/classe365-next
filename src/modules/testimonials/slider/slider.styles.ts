@@ -10,6 +10,9 @@ export const SliderWrapper = styled.div`
   .swiper-pagination{
     display: none;
   }
+  @media screen and (max-width: 425px) {
+  }
+
 `;
 export const CustomNavigator = styled.div`
     position: relative;
@@ -31,7 +34,5 @@ export const CustomNavigator = styled.div`
         margin-left: 12px;
         }
     }
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
+
   `;

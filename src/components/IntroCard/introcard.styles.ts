@@ -2,10 +2,23 @@ import styled from "styled-components";
 
 export const IntroCardWrapper = styled.div<{ color: string }>`
     background-color: ${({color})=>color?color:"#FAFAFA"};
-    width: 594px;
-    min-height: 496px;
+    max-width: 594px;
+    width: 100%;
+    min-height: fit-content;
     border-radius: 12px;
     padding: 40px 30px;
+    @media screen and (max-width: 768px) {
+        max-width: 100%;
+    }
+    @media screen and (max-width: 425px) {
+        padding: 20px 15px;
+        h1{
+            font-size: 24px !important;
+        }
+        h4{
+            font-size: 13px !important;
+        }
+    }
     h1{
         color: var(--site-heading, #1E2123);
         font-size: 32px;
