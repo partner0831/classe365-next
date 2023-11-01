@@ -244,15 +244,9 @@ export const headerLeftNavs = [
           // },
           {
             label: "Customer Stories",
-            to: "/customer",
+            to: "/testimonials",
             icon: <Icon.CustomerIcon />,
             hoverIcon: <Icon.CustomerIcon className="hovered" />,
-          },
-          {
-            label: "Testimonials",
-            to: "/testimonials",
-            icon: <Icon.CareersIcon />,
-            hoverIcon: <Icon.CareersIcon className="hovered" />,
           },
         ],
       },
