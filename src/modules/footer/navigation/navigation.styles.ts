@@ -61,9 +61,7 @@ export const DownloadButtonWrapper = styled.div`
       margin-left: 12px;
     }
   }
-  img {
-    image-rendering: pixelated;
-  }
+
 `;
 
 export const CopyrightWrapper = styled.div`

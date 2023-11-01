@@ -63,12 +63,14 @@ export const Navigation: React.FC = () => {
                   <img
                     src="/assets/images/footer/app_store.png"
                     alt="App store"
+                    width={111.881}
                   />
                 </a>
                 <a href="#">
                   <img
                     src="/assets/images/footer/googleplay.png"
                     alt="Google Play"
+                    width={111.881}
                   />
                 </a>
               </Styled.DownloadButtonWrapper>
