@@ -29,7 +29,7 @@ export const GreatSoftware: React.FC = () => {
               continuous to answer us like when they were small and this is very
               good and unfortunately never happen with companies that growing
               sow fast. Ashley continues to be disposable to Big and small
-              companies and that's very good!
+              companies and that&apos;s very good!
             </p>
           </div>
         </Styled.SoftwareImageWrapper>
