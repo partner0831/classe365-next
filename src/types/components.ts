@@ -25,7 +25,15 @@ export type IResourceCardProps = {
   badge_color: string;
   title: string;
 };
-
+export type IReviewCardProps = {
+  header: string;
+  content1: string;
+  content2?: string;
+  name: string;
+  role: string;
+  pos: string;
+  color:string;
+};
 export type IDiscoverCardProps = {
   title: string;
   description: string;

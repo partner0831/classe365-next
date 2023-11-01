@@ -1,5 +1,5 @@
 import React from "react";
-
+import * as Styled from "./review.styles";
 export const Review: React.FC = () => {
-  return <div>Review: React.FC</div>;
+  return <Styled.ReviewWrapper>sdfasdf</Styled.ReviewWrapper>;
 };

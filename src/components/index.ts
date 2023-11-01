@@ -10,3 +10,4 @@ export * from "./Select";
 export * from "./Seo";
 export * from "./SVGs";
 export * from "./Textarea";
+export * from "./ReviewCard";

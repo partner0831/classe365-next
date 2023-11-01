@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MeetWrapper = styled.div`
+export const GreateWrapper = styled.div`
 
   max-width: 1240px;
   width: 95%;
@@ -12,6 +12,13 @@ export const MeetWrapper = styled.div`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+  h4{
+    color: var(--text-grey-dark, #3B3F42);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 122.222% */
   }
   h2, h3{
     font-size: 16px;
@@ -44,20 +51,20 @@ export const SoftwareView =styled.div`
 `;
 export const SoftwareWrapper = styled.div`
   h1{
-    max-width: 260px;
+    max-width: 320px;
   }
-  h2{
-    max-width: 310px;
+  h4{
+    margin-top: 24px;
   }
   h3{
-    max-width: 280px;
-  }
-  h2{
-
-    margin-top: 181px !important;
+    max-width: 320px;
   }
   img{
     width: 100%;
     margin-left: 71px;
   }
+  svg{
+    margin-top: 173px;
+  }
+
 `;
