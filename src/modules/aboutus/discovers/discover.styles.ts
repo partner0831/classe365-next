@@ -42,9 +42,9 @@ export const PlanCard = styled.div`
   margin-left: 43px;
   position: relative;
   @media screen and (max-width: 1024px) {
-        margin-left: 0px;
-        width: 100%;
-    }
+      margin: 30px 0 0 0;
+      width: 100%;
+  }
 
 `
 export const Line = styled.div`
@@ -64,6 +64,10 @@ export const PlanContainer = styled.div`
     align-items: center;
     justify-content: center;
     height: fit-content;
+    @media screen and (max-width:425px){
+      width: 100%;
+      align-items: flex-start;
+    }
   }
   span{
     margin-left: 38px;
@@ -72,6 +76,10 @@ export const PlanContainer = styled.div`
     font-style: normal;
     font-weight: 400;
     line-height: 22px; /* 137.5% */
+  }
+  @media screen and (max-width:425px){
+    flex-direction: column;
+    align-items: flex-start;
   }
 `
 export const YearContent = styled.div`
@@ -88,7 +96,9 @@ export const YearView = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
-  
+   @media screen and (max-width:425px){
+      width: 100%;
+    }
 `
 export const Rectangle = styled.div`
     width: 28px;
@@ -103,6 +113,9 @@ export const DotStick = styled.hr`
   background-color: #fff;
   height: 1px;
   width: 152px;
+  @media screen and (max-width:425px){
+    width: 100%;
+  }
 `
 export const LandingCountWrapper= styled.div`
   position: relative;
