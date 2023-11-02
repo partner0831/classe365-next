@@ -60,6 +60,9 @@ export const StoryWrapper = styled.div`
                 width: 100%;
             }
         }
+        h1{
+            font-size: 24px;
+        }
     }
     @media screen and (max-width:425px) {
         div{

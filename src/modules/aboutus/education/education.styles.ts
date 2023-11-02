@@ -51,11 +51,13 @@ export const EducationWrapper = styled.div`
             flex-direction: column;
             img{
                 width: 100%;
-                margin-bottom: 20px;
+                margin: 0 0 20px 0;
             }
            
         }
-    
+        h1{
+            font-size: 24px;
+        }
        
     }
     @media screen and (max-width:425px){

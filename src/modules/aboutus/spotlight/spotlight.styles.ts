@@ -41,7 +41,9 @@ export const SpotWrapper = styled.div`
     }
 `;
 export const SwiperContainer = styled.div`
-
+    .swiper-slide{
+        width: fit-content;
+    }
   .swiper-pagination{
     display: none;
   }

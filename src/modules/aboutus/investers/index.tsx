@@ -8,7 +8,7 @@ export const Investers: React.FC = () => {
       <h1>investors</h1>
       <h2>Our Customers</h2>
       <h3>They believe in us</h3>
-      <div>
+      <Styled.ProductView>
         <div>
           <ProductIcon />
           <h4>Bootstrapped</h4>
@@ -18,7 +18,7 @@ export const Investers: React.FC = () => {
           <ProductIcon />
           <h4>Profitable</h4>
         </div>
-      </div>
+      </Styled.ProductView>
     </Styled.InvesterWrapper>
   );
 };
