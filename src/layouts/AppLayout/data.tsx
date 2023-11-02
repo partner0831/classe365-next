@@ -206,6 +206,12 @@ export const headerLeftNavs = [
             icon: <Icon.APIIcon />,
             hoverIcon: <Icon.APIIcon className="hovered" />,
           },
+          {
+            label: "Product Updates",
+            to: "https://updates.classe365.com/en",
+            icon: <Icon.ProductIcon />,
+            hoverIcon: <Icon.ProductIcon className="hovered" />,
+          },
         ],
       },
       {
