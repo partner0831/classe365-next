@@ -2,6 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { AppLayout } from "@/layouts";
 import * as Section from "@/modules/solution/features";
 import { SolutionFeature } from "@/context/contexts";
+import { SolutionVideos } from "@/modules/solution/features/videos";
 
 const FeaturePreAdmission: React.FC = () => {
   const [data, setData] = useState<any>({});
@@ -28,6 +29,7 @@ const FeaturePreAdmission: React.FC = () => {
         data={data?.table_data?.data}
         title={data?.table_title}
       />
+      <SolutionVideos />
     </AppLayout>
   );
 };
