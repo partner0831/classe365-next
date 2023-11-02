@@ -27,4 +27,45 @@ export const EducationWrapper = styled.div`
         font-weight: 700;
         line-height: normal;
     }
+    div{
+        margin-top: 63px;
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 52.5%;
+            margin-right: 82px;
+            object-fit: contain;
+        }
+        span{
+            color: var(--text-grey-dark, #3B3F42);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+        }
+ 
+    }
+    @media screen and (max-width:768px){
+        div{
+            flex-direction: column;
+            img{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+           
+        }
+    
+       
+    }
+    @media screen and (max-width:425px){
+        div{
+            margin-top: 30px;
+            /* span{
+                font-size: 14px;
+            } */
+        }
+        /* h1{
+            font-size: 24px;
+        } */
+    }
 `;

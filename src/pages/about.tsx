@@ -7,7 +7,8 @@ const AboutUs: React.FC = () => {
     <AppLayout name="about" is_only_footer>
       <Section.Story />
       <Section.Education />
-      {/* <Section.DiscoversIT /> */}
+      <Section.Guide />
+      <Section.DiscoversIT />
       <Section.Careers />
       <Trusted />
       <Section.Spotlight />

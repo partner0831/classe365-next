@@ -26,4 +26,47 @@ export const StoryWrapper = styled.div`
         font-weight: 700;
         line-height: normal;
     }
+    h2{
+        color: var(--site-heading, #1E2123);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 133.333% */
+    }
+    div{
+        margin:88px 0 0 0;
+        display: flex ;
+        padding: 0 40px;
+        div{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        h2{
+            margin-top: 16px;
+        }
+    }
+    img{
+        margin-top: 44px;
+        border-radius: 30px;
+    }
+    @media screen and (max-width:768px) {
+        div{
+            padding: 0 20px;
+
+            margin: 30px 0 0 0;
+            flex-direction: column !important;
+            div{
+                width: 100%;
+            }
+        }
+    }
+    @media screen and (max-width:425px) {
+        div{
+            padding: 0 10px;
+        }
+        h2{
+            font-size: 16px;
+        }
+    }
 `;
