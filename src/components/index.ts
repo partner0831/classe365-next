@@ -12,3 +12,4 @@ export * from "./SVGs";
 export * from "./Textarea";
 export * from "./ReviewCard";
 export * from "./IntroCard";
+export * from "./SpotCard"

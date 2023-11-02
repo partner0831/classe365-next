@@ -30,6 +30,7 @@ export const EducationWrapper = styled.div`
     div{
         margin-top: 63px;
         display: flex;
+        align-items: center;
         justify-content: space-between;
         img{
             width: 52.5%;

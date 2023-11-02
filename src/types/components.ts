@@ -45,6 +45,11 @@ export type IReviewCardProps = {
   pos: string;
   color:string;
 };
+export type ISpotCardProps = {
+  logo: string;
+  content: string;
+  color:string;
+};
 export type IDiscoverCardProps = {
   title: string;
   description: string;

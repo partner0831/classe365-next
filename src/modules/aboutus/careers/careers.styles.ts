@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const CareersWrapper = styled.div`
     max-width: 1240px;
     width: 95%;
-    margin: auto;
+    margin: 169px auto auto auto;
     background: var(--bg-grey, #F1F6FA);
     display: flex;
     border-radius: 24px;
