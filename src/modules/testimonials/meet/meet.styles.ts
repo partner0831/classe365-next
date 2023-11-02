@@ -36,6 +36,13 @@ export const MeetHeader = styled.div`
   div{
     width: 294px;
   }
+  @media screen and (max-width: 425px) {
+    flex-direction: column !important;
+    margin-top: 60px;
+    h6{
+      margin-bottom: 30px;
+    }
+  }
 `;
 export const SoftwareView =styled.div`
   display: flex;
@@ -43,7 +50,9 @@ export const SoftwareView =styled.div`
   margin-top: 93px; 
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    
+  }
+  @media screen and (max-width: 425px) {
+    margin-top: 40px; 
   }
 `;
 export const SoftwareWrapper = styled.div`
