@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
-export const CareersWrapper = styled.div`
+export const DiscoverWrapper = styled.div`
     
 `;
