@@ -41,10 +41,21 @@ export const SpotWrapper = styled.div`
     }
 `;
 export const SwiperContainer = styled.div`
+max-width: 1240px;
+width: 95%;
+margin: auto;
     .swiper-slide{
-        width: fit-content;
+        /* width: 390px; */
+        max-width: 394px;
+        width: 100%;
     }
   .swiper-pagination{
     display: none;
   }
+`
+
+export const SwiperWrapper = styled.div`
+padding:  0 0 146px 0;
+
+
 `

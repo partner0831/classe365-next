@@ -16,12 +16,11 @@ export const Slider: React.FC = () => {
           enabled: true,
         }}
         navigation={{
-          prevEl: ".prev",
-          nextEl: ".next",
+          prevEl: ".prevS",
+          nextEl: ".nextS",
         }}
         loop
         modules={[Pagination, Navigation]}
-        className="mySwiper"
       >
         {slidata.map((item, key) => (
           <SwiperSlide key={key}>
@@ -38,10 +37,10 @@ export const Slider: React.FC = () => {
         ))}
       </Swiper>
       <Styled.CustomNavigator>
-        <span className="prev">
+        <span className="prevS">
           <HiOutlineArrowLeft />
         </span>
-        <span className="next">
+        <span className="nextS">
           <HiOutlineArrowRight />
         </span>
       </Styled.CustomNavigator>

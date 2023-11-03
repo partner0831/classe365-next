@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const SpotCardWrapper = styled.div<{color:string}>`
-    width: 394px;
+max-width: 394px;
+    width: 100%;
     height: 444px;
     border-radius: 12px;
     box-shadow: 0px 4px 20px 0px rgba(84, 84, 84, 0.25);
