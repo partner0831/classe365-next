@@ -47,6 +47,30 @@ export const PlanCard = styled.div`
   }
 
 `
+export const YearCard = styled.div`
+  display: flex;
+  flex-direction: column;
+  svg{
+    margin-top: 76px;
+    width: 100%;
+    height: fit-content;
+  }
+  h3{
+    max-width: 437px;;
+    text-align: left;
+  }
+ @media screen and (max-width: 1024px) {
+     align-items: center;
+     svg{
+      margin-top: 10px;
+     }
+     h3{
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+ 
+`
 export const Line = styled.div`
     width: 1px;
     background: #6772E5;

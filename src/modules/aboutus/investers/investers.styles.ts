@@ -52,10 +52,13 @@ export const InvesterWrapper = styled.div`
     }
 `;
 export const ProductView = styled.div`
+    h4{
+        margin-left: 15px;
+    }
+ 
     @media screen and (max-width:425px) {
         display: flex;
         flex-direction: column;
-       
     }
 `
 export const Stick = styled.div`

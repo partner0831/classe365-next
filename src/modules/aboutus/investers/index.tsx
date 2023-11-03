@@ -1,6 +1,6 @@
 import React from "react";
 import * as Styled from "./investers.styles";
-import { ProductIcon } from "@/components/SVGs/menu";
+import { Profit, Boost } from "@/components/SVGs/others";
 
 export const Investers: React.FC = () => {
   return (
@@ -10,12 +10,12 @@ export const Investers: React.FC = () => {
       <h3>They believe in us</h3>
       <Styled.ProductView>
         <div>
-          <ProductIcon />
+          <Boost />
           <h4>Bootstrapped</h4>
         </div>
         <Styled.Stick />
         <div>
-          <ProductIcon />
+          <Profit />
           <h4>Profitable</h4>
         </div>
       </Styled.ProductView>

@@ -1,18 +1,20 @@
 import React from "react";
 import * as Styled from "./discover.styles";
 import { plandata } from "./data";
+import { YearPlanIcon } from "@/components/SVGs/others";
 
 export const DiscoversIT: React.FC = () => {
   return (
     <Styled.DiscoverWrapper>
       <h1>Discover Our Story</h1>
       <Styled.PlanView>
-        <div>
+        <Styled.YearCard>
           <h2>Founded 2013.</h2>
           <h3>
             The company was born in the cloud and started selling SIS solutions.
           </h3>
-        </div>
+          <YearPlanIcon />
+        </Styled.YearCard>
         <Styled.PlanCard>
           <Styled.Line />
           {plandata.map((item, key) => (
