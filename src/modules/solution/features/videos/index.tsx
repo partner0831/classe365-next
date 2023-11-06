@@ -40,39 +40,6 @@ export const SolutionVideos: React.FC = () => {
                   <span>{item1.title}</span>
                 </p>
               ))}
-              <div>
-                <Swiper
-                  spaceBetween={30}
-                  navigation={true}
-                  pagination={{
-                    clickable: true,
-                  }}
-                  onSlideChange={(e) => setSlideIndex(e.realIndex)}
-                  modules={[Pagination, Navigation]}
-                  className="mySwiper"
-                >
-                  {videoData[0].data.map((video, key) => (
-                    <SwiperSlide key={key}>
-                      <Styled.VideoSliderItem>
-                        <div>
-                          <h3>{video.vtitle}</h3>
-                          <button
-                            onClick={() =>
-                              handleVideoPlay(`demo-video-${active}-${key}`)
-                            }
-                          >
-                            Watch Now
-                          </button>
-                        </div>
-                        <video
-                          id={`demo-video-${active}-${key}`}
-                          src={video.video}
-                        ></video>
-                      </Styled.VideoSliderItem>
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
-              </div>
             </div>
           </Styled.VideoTabItem>
         </Styled.VideoTabWrapper>

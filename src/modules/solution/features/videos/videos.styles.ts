@@ -15,6 +15,8 @@ export const VideosWrapper = styled.div`
   & > div {
     justify-content: space-between;
     display: flex;
+    max-width: 1080px;
+    margin: auto;
   }
   @media screen and (max-width: 425px) {
     h1 {
