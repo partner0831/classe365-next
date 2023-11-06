@@ -10,7 +10,8 @@ export const SliderWrapper = styled.div`
   .swiper-pagination{
     display: none;
   }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 768px) {
+    margin-top: 50px;
   }
 
 `;

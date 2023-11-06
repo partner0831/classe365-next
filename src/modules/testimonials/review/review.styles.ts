@@ -11,6 +11,7 @@ export const ReviewWrapper = styled.div`
         margin-left: 52px;
     }
     @media screen and (max-width: 768px) {
+        margin-top: 60px;
         flex-direction: column;
         align-items: center;
         & > :not(:first-child) {

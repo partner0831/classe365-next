@@ -5,33 +5,41 @@ export const GreateWrapper = styled.div`
   width: 95%;
   margin: auto auto 160px auto;
   color: var(--site-heading, #1e2123);
+  font-style: normal;
   h1 {
     font-size: 32px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
   }
   h4 {
     color: var(--text-grey-dark, #3b3f42);
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 22px; /* 122.222% */
   }
   h2,
   h3 {
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 22px; /* 137.5% */
   }
   h6 {
     color: var(--bright-blue, #6772e5);
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
     line-height: 28px; /* 116.667% */
   }
+  @media screen and (max-width: 768px) {
+ 
+    margin: auto auto 60px auto;
+  }
+  @media screen and (max-width: 425px) {
+ 
+      h1 {
+        font-size: 24px;
+      }
+  }
+
 `;
 export const MeetHeader = styled.div`
   display: flex;
@@ -119,6 +127,9 @@ export const SoftwareImageWrapper = styled.div`
     padding: 28px;
 
     position: relative;
+    p{
+      font-size: 14px;
+    }
   }
   img {
     position: absolute;

@@ -7,10 +7,10 @@ export const StoryWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-style: normal;
     p{
         color: var(--bright-blue, #6772E5);
         font-size: 14px;
-        font-style: normal;
         font-weight: 700;
         line-height: normal;
         letter-spacing: 1.4px;
@@ -22,14 +22,12 @@ export const StoryWrapper = styled.div`
         color: var(--site-heading, #1E2123);
         text-align: center;
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
     h2{
         color: var(--site-heading, #1E2123);
         font-size: 24px;
-        font-style: normal;
         font-weight: 500;
         line-height: 32px; /* 133.333% */
     }
@@ -51,6 +49,7 @@ export const StoryWrapper = styled.div`
         border-radius: 30px;
     }
     @media screen and (max-width:768px) {
+        margin: 50px auto auto auto;
         div{
             padding: 0 20px;
 
@@ -62,6 +61,9 @@ export const StoryWrapper = styled.div`
         }
         h1{
             font-size: 24px;
+        }
+        h2{
+            font-size:18px;
         }
     }
     @media screen and (max-width:425px) {
