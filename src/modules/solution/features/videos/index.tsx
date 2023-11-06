@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import { AiOutlineRight } from "react-icons/ai";
@@ -9,12 +9,11 @@ export const SolutionVideos: React.FC = () => {
   const { videoData } = Data;
   const [active, setActive] = useState(0);
   const [slideIndex, setSlideIndex] = useState(0);
-
   const handleVideoPlay = (id: string) => {
     const video: any = document.getElementById(id);
     video?.play();
   };
-
+  const [swiper, setSwiper] = useState<any | null>(null);
   return (
     <Styled.VideosWrapper>
       <h1>On-Demand Videos</h1>
@@ -33,7 +32,13 @@ export const SolutionVideos: React.FC = () => {
             </h3>
             <div>
               {videoData[0].data.map((item1, key1) => (
-                <p key={key1} className={slideIndex === key1 ? "active" : ""}>
+                <p
+                  key={key1}
+                  className={slideIndex === key1 ? "active" : ""}
+                  onClick={() => {
+                    swiper.slideTo(key1);
+                  }}
+                >
                   <span>
                     <AiOutlineRight size={12} />
                   </span>
@@ -50,6 +55,7 @@ export const SolutionVideos: React.FC = () => {
                   onSlideChange={(e) => setSlideIndex(e.realIndex)}
                   modules={[Pagination, Navigation]}
                   className="mySwiper"
+                  onSwiper={setSwiper}
                 >
                   {videoData[0].data.map((video, key) => (
                     <SwiperSlide key={key}>
@@ -86,6 +92,7 @@ export const SolutionVideos: React.FC = () => {
             onSlideChange={(e) => setSlideIndex(e.realIndex)}
             modules={[Pagination, Navigation]}
             className="mySwiper"
+            onSwiper={setSwiper}
           >
             {videoData[active].data.map((video, key) => (
               <SwiperSlide key={key}>
