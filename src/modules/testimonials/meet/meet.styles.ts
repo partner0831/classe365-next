@@ -75,6 +75,9 @@ export const SoftwareWrapper = styled.div`
   h1, h2, h3{
     max-width: 100%;
   }
+  h1{
+    font-size: 24px;
+  }
   h2 {
     margin-top: 20px !important;
   }

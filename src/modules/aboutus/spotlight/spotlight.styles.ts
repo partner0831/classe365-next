@@ -11,7 +11,6 @@ export const SpotWrapper = styled.div`
     h1{
         color: #2D6CCB;
         font-size: 14px;
-        font-style: normal;
         font-weight: 700;
         line-height: normal;
         letter-spacing: 1.4px;
@@ -20,7 +19,6 @@ export const SpotWrapper = styled.div`
     h2{
         color: var(--site-heading, #1E2123);
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
         line-height: normal;
         margin-top: 24px;
@@ -28,7 +26,6 @@ export const SpotWrapper = styled.div`
      h3{
        color: var(--text-grey-light, #555);
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 22px; /* 137.5% */
         margin: 16px 0 24px 0;
@@ -60,6 +57,9 @@ export const SwiperWrapper = styled.div`
         max-width: 1240px;
         width: 95%;
         margin: 56px auto auto auto;
+    }
+    @media screen and (max-width: 768px){
+        padding:  0 0 50px 0;
     }
 `
 export const CustomNavigator = styled.div`

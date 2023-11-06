@@ -22,10 +22,18 @@ export const GuideWrapper = styled.div`
     .about-donation{
         top: 70px;
         right: 48px;
+        @media screen and (max-width: 580px) {
+            top: 20px;
+            right: 28px;
+        }
     }
     .about-star{
         bottom: 70px;
         left: 48px;
+        @media screen and (max-width: 580px) {
+            bottom: 20px;
+            left: 28px;
+        }
     }
     & > div {
         margin-top: 46px;
@@ -47,6 +55,7 @@ export const GuideWrapper = styled.div`
         & > div {
             grid-template-columns: 1fr;
         }
+   
     }
 `;
 export const GuideView = styled.div`

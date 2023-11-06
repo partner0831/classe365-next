@@ -3,31 +3,34 @@ import styled from "styled-components";
 export const DiscoverWrapper = styled.div`
     max-width: 1240px;
     width: 95%;
-    margin: 124px auto auto auto;
+    margin: 124px auto 107px auto;
     h1{
         color: var(--site-heading, #1E2123);
         text-align: center;
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
         line-height: normal;
+    }
+    @media screen and (max-width: 768px) {
+      margin: 50px auto auto auto;
+      h1{
+        font-size: 28px;
+      }
     }
 `;
 export const PlanView = styled.div`
     display: flex;
     justify-content: space-between;
-    margin-top: 107px;
+
     h2{
       color: var(--bright-blue, #6772E5);
       font-size: 32px;
-      font-style: normal;
       font-weight: 700;
       line-height: normal;
     }
     h3{
       color: var(--text-grey-dark, #3B3F42);
       font-size: 24px;
-      font-style: normal;
       font-weight: 700;
       line-height: 32px; /* 133.333% */
       margin-top: 12px;
@@ -35,6 +38,9 @@ export const PlanView = styled.div`
     }
     @media screen and (max-width: 1024px) {
       flex-direction: column;
+    }
+    @media screen and (max-width: 768px) {
+      margin-top: 50px;
     }
 `;
 export const PlanCard = styled.div`
@@ -109,7 +115,6 @@ export const PlanContainer = styled.div`
 export const YearContent = styled.div`
       color: var(--text-grey-dark, #3B3F42);
       font-size: 24px;
-      font-style: normal;
       font-weight: 700;
       line-height: normal;
       position: absolute;
@@ -166,7 +171,7 @@ export const LandingCountWrapper= styled.div`
         color: var(--text-grey-dark, #3B3F42);
         text-align: center;
         font-size: 16px;
-        font-style: normal;
+
         font-weight: 400;
         line-height: 22px; /* 137.5% */
         max-width: 898px;
