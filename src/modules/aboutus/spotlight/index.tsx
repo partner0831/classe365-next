@@ -5,6 +5,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { spotdata } from "./data";
+import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 export const Spotlight: React.FC = () => {
   return (
     <Styled.SpotContainer>
@@ -26,39 +27,31 @@ export const Spotlight: React.FC = () => {
       </Styled.SpotWrapper>
       <Styled.SwiperWrapper>
         <Styled.SwiperContainer>
-          {/* <Swiper
+          <Swiper
             slidesPerView={"auto"}
-            spaceBetween={30}
             pagination={{
               enabled: true,
             }}
             navigation={{
-              prevEl: ".prev",
-              nextEl: ".next",
+              prevEl: ".prevS",
+              nextEl: ".nextS",
             }}
             loop
             modules={[Pagination, Navigation]}
-            className="mySwiper"
-          >
-            {spotdata.map((item, key) => (
-              <SwiperSlide key={key}>
-                <Comp.SportCard
-                  logo={item.src}
-                  content={item.content}
-                  color={item.color}
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper> */}
-          <Swiper
-            slidesPerView={"auto"}
-            spaceBetween={30}
-            pagination={{
-              clickable: true,
+            breakpoints={{
+              425: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
             }}
-            loop
-            modules={[Pagination]}
-            className="mySwiper"
           >
             {spotdata.map((item, key) => (
               <SwiperSlide key={key}>
@@ -69,15 +62,7 @@ export const Spotlight: React.FC = () => {
                 />
               </SwiperSlide>
             ))}
-            {/* {spotdata.map((item, key) => (
-              <SwiperSlide key={key}>
-                <Comp.SportCard
-                  logo={item.src}
-                  content={item.content}
-                  color={item.color}
-                />
-              </SwiperSlide>
-            ))} */}
+
             {spotdata.map((item, key) => (
               <SwiperSlide key={key}>
                 <Comp.SportCard
@@ -88,6 +73,14 @@ export const Spotlight: React.FC = () => {
               </SwiperSlide>
             ))}
           </Swiper>
+          <Styled.CustomNavigator className="page-sport">
+            <span className="prevS">
+              <HiOutlineArrowLeft />
+            </span>
+            <span className="nextS">
+              <HiOutlineArrowRight />
+            </span>
+          </Styled.CustomNavigator>
         </Styled.SwiperContainer>
       </Styled.SwiperWrapper>
     </Styled.SpotContainer>
