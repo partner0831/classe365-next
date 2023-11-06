@@ -27,7 +27,8 @@ const FeatureApps: React.FC = () => {
       />
       <Section.AdmissionTable
         data={data?.table_data?.data}
-        title={data?.table_title}
+        title={data.table_title}
+        subtitle={data.table_subtitle}
       />
       <SolutionVideos />
     </AppLayout>
