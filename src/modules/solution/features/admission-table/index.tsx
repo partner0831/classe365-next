@@ -4,10 +4,11 @@ import * as Styled from "./table.styles";
 import * as Comp from "@/components";
 type Props = {
   title: string;
+  subtitle: string;
   data: any;
 };
 
-export const AdmissionTable: React.FC<Props> = ({ data, title }) => {
+export const AdmissionTable: React.FC<Props> = ({ data, title, subtitle }) => {
   const [visible, setVisible] = useState(false);
   const renderTableRows = (key: number, row: string) => {
     return (
@@ -28,9 +29,7 @@ export const AdmissionTable: React.FC<Props> = ({ data, title }) => {
     <Styled.TableSectionWrapper>
       <Styled.TableHeaderWrapper>
         <h1>{title}</h1>
-        <h2>
-          Simplify and automate the admissions process for prospective students.
-        </h2>
+        <h2>{subtitle}</h2>
       </Styled.TableHeaderWrapper>
       {data?.map((item: any, index: any) => {
         if (visible) {

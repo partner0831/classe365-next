@@ -30,6 +30,7 @@ const FeatureWhiteLabel: React.FC = () => {
       <Section.AdmissionTable
         data={data?.table_data?.data}
         title={data.table_title}
+        subtitle={data.table_subtitle}
       />
       <SolutionVideos />
     </AppLayout>
