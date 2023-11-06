@@ -16,6 +16,12 @@ export const VideosWrapper = styled.div`
     justify-content: space-between;
     display: flex;
   }
+  @media screen and (max-width: 425px) {
+    h1 {
+      font-size: 28px;
+      margin-bottom: 0;
+    }
+  }
 `;
 
 export const VideoTabWrapper = styled.div`

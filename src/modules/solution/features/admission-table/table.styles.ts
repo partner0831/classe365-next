@@ -8,8 +8,11 @@ export const TableSectionWrapper = styled.div`
   border-radius: 30px;
   background: var(--grey-lighter, #FAFAFA);
   @media screen and (max-width: 768px) {
+    padding: 64px 15px;
   }
-
+  @media screen and (max-width: 425px) {
+    padding: 32px 15px;
+  }
 `;
 
 export const TableHeaderWrapper = styled.div`
@@ -32,6 +35,11 @@ export const TableHeaderWrapper = styled.div`
     text-align: center;
     margin-top: 16px;
   }
+  @media screen and (max-width: 425px) {
+    h1 {
+      font-size: 28px;
+    }
+  }
 `;
 
 export const TableBodyWrapper = styled.div`
@@ -41,6 +49,14 @@ export const TableBodyWrapper = styled.div`
       background-color: #fff;
     }
   /* } */
+  h3{
+    color: var(--text-grey-dark, #3B3F42);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 32px 0 8px 0;
+  }
 `;
 
 export const TableRowWrapper = styled.div`

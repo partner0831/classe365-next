@@ -18,6 +18,7 @@ export const AdmissionTable: React.FC<Props> = ({ data, title }) => {
         </h2>
       </Styled.TableHeaderWrapper>
       <Styled.TableBodyWrapper>
+        <h3>Privacy & Security</h3>
         {data?.map((row, index) => (
           <Styled.TableRowWrapper key={index}>
             <span>
