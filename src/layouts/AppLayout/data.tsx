@@ -116,9 +116,19 @@ export const headerLeftNavs = [
             image: "/assets/images/shapes/CRM.png",
           },
           {
+            label: "Student Information System",
+            to: "/solution/features/student",
+            image: "/assets/images/shapes/SIS.png",
+          },
+          {
             label: "Learning Management System",
             to: "/solution/features/learning",
             image: "/assets/images/shapes/LMS.png",
+          },
+          {
+            label: "Fees & Invoicing",
+            to: "/solution/features/fee",
+            image: "/assets/images/shapes/Fees_invoicing.png",
           },
           {
             label: "Finance & Accounting",
@@ -126,39 +136,30 @@ export const headerLeftNavs = [
             image: "/assets/images/shapes/Finance.png",
           },
           {
-            label: "Alumni Module",
+            label: "eCommerce Module",
+            to: "/solution/features/ecommerce",
+            image: "/assets/images/shapes/E-commerce.png",
+          },
+          {
+            label: "Fund Raising",
+            to: "/solution/features/analytics",
+            image: "/assets/images/shapes/Fundraising.png",
+          },
+          {
+            label: "Degree Audit",
+            to: "/solution/features/apps",
+            image: "/assets/images/shapes/DegreeAudit.png",
+          },
+
+          {
+            label: "Alumni",
             to: "/solution/features/alumni",
             image: "/assets/images/shapes/Alumni.png",
-          },
-          {
-            label: "Apps & Integrations",
-            to: "/solution/features/apps",
-            image: "/assets/images/shapes/Integrations.png",
-          },
-          {
-            label: "Student Information System",
-            to: "/solution/features/student",
-            image: "/assets/images/shapes/SIS.png",
-          },
-          {
-            label: "Analytics",
-            to: "/solution/features/analytics",
-            image: "/assets/images/shapes/Analytics.png",
           },
           {
             label: "White Label Module",
             to: "/solution/features/white",
             image: "/assets/images/shapes/White label.png",
-          },
-          {
-            label: "E-commerce Module",
-            to: "/solution/features/ecommerce",
-            image: "/assets/images/shapes/E-commerce.png",
-          },
-          {
-            label: "Fee & Donation Module",
-            to: "/solution/features/fee",
-            image: "/assets/images/shapes/Donations.png",
           },
         ],
       },
