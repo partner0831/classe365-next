@@ -18,19 +18,11 @@ export const features = [
     link: "#",
   },
   {
+    label: "Fees & Invoicing",
+    link: "#",
+  },
+  {
     label: "Finance & Accounting",
-    link: "#",
-  },
-  {
-    label: "Analytics",
-    link: "#",
-  },
-  {
-    label: "Alumni Module",
-    link: "#",
-  },
-  {
-    label: "White Label module",
     link: "#",
   },
   {
@@ -38,11 +30,19 @@ export const features = [
     link: "#",
   },
   {
-    label: "Fee & donation module",
+    label: "Fund Raising",
     link: "#",
   },
   {
-    label: "Apps & Integrations",
+    label: "Degree Audit",
+    link: "#",
+  },
+  {
+    label: "Alumni",
+    link: "#",
+  },
+  {
+    label: "White Label Module",
     link: "#",
   },
 ];
@@ -121,6 +121,10 @@ export const resources = [
   },
   {
     label: "Cloud Security",
+    link: "#",
+  },
+  {
+    label: "Product Updates",
     link: "#",
   },
 ];
