@@ -17,22 +17,28 @@ export const AdmissionTable: React.FC<Props> = ({ data, title }) => {
           Simplify and automate the admissions process for prospective students.
         </h2>
       </Styled.TableHeaderWrapper>
-      <Styled.TableBodyWrapper>
-        <h3>Privacy & Security</h3>
-        {data?.map((row, index) => (
-          <Styled.TableRowWrapper key={index}>
-            <span>
-              <em>
-                <FiCheck color="#6772E5" size={24} />
-              </em>
-              {row}
-            </span>
-            <span>
-              <FiCheck color="#6772E5" size={24} />
-            </span>
-          </Styled.TableRowWrapper>
-        ))}
-      </Styled.TableBodyWrapper>
+      {data?.map((item: any, index: any) => {
+        if (!visible ? index < 1 : index < data.length) {
+          return (
+            <Styled.TableBodyWrapper key={index}>
+              <h3>{item.title}</h3>
+              {item.content?.map((row: any, key: any) => (
+                <Styled.TableRowWrapper key={key}>
+                  <span>
+                    <em>
+                      <FiCheck color="#6772E5" size={24} />
+                    </em>
+                    {row}
+                  </span>
+                  <span>
+                    <FiCheck color="#6772E5" size={24} />
+                  </span>
+                </Styled.TableRowWrapper>
+              ))}
+            </Styled.TableBodyWrapper>
+          );
+        }
+      })}
       {visible && (
         <Styled.Service>
           <h6>* Available in Enterprise Plan</h6>
