@@ -16,7 +16,7 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         fill="url(#paint0_radial_6102_115053)"
       />
     </g>
-    <circle cx="285" cy="285" r="285" fill="white" fill-opacity="0.4" />
+    <circle cx="285" cy="285" r="285" fill="white" fillOpacity="0.4" />
     <path
       d="M291.744 72.121C288.748 93.4867 286.015 109.904 284.064 109.242C279.822 109.242 280.224 95.1617 276.384 72.121C276.384 51.6197 279.822 35 284.064 35C288.306 35 291.744 51.6197 291.744 72.121Z"
       fill="url(#paint1_linear_6102_115053)"
@@ -145,9 +145,9 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         width="558"
         height="558"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feGaussianBlur in="BackgroundImageFix" stdDeviation="10" />
         <feComposite
           in2="SourceAlpha"
@@ -169,9 +169,9 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         gradientUnits="userSpaceOnUse"
         gradientTransform="translate(285 285) rotate(90) scale(259)"
       >
-        <stop stop-color="#D1C2FF" />
-        <stop offset="0.598958" stop-color="#E2FAFF" />
-        <stop offset="0.979167" stop-color="white" stop-opacity="0.04" />
+        <stop stopColor="#D1C2FF" />
+        <stop offset="0.598958" stopColor="#E2FAFF" />
+        <stop offset="0.979167" stopColor="white" stopOpacity="0.04" />
       </radialGradient>
       <linearGradient
         id="paint1_linear_6102_115053"
@@ -181,8 +181,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="109.261"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" />
-        <stop offset="1" stop-color="#A389F4" stop-opacity="0" />
+        <stop stopColor="#A389F4" />
+        <stop offset="1" stopColor="#A389F4" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_6102_115053"
@@ -192,8 +192,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="362.94"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" />
-        <stop offset="1" stop-color="#A389F4" stop-opacity="0" />
+        <stop stopColor="#A389F4" />
+        <stop offset="1" stopColor="#A389F4" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_6102_115053"
@@ -203,8 +203,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="401.401"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" />
-        <stop offset="1" stop-color="#A389F4" stop-opacity="0" />
+        <stop stopColor="#A389F4" />
+        <stop offset="1" stopColor="#A389F4" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint4_linear_6102_115053"
@@ -214,8 +214,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="428.533"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" />
-        <stop offset="1" stop-color="#A389F4" stop-opacity="0" />
+        <stop stopColor="#A389F4" />
+        <stop offset="1" stopColor="#A389F4" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint5_linear_6102_115053"
@@ -225,8 +225,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="366.04"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" />
-        <stop offset="1" stop-color="#A389F4" stop-opacity="0" />
+        <stop stopColor="#A389F4" />
+        <stop offset="1" stopColor="#A389F4" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint6_linear_6102_115053"
@@ -236,8 +236,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="404.414"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" />
-        <stop offset="1" stop-color="#A389F4" stop-opacity="0" />
+        <stop stopColor="#A389F4" />
+        <stop offset="1" stopColor="#A389F4" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint7_linear_6102_115053"
@@ -247,8 +247,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="111.279"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" />
-        <stop offset="1" stop-color="#A389F4" stop-opacity="0" />
+        <stop stopColor="#A389F4" />
+        <stop offset="1" stopColor="#A389F4" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint8_linear_6102_115053"
@@ -258,8 +258,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="111.279"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" />
-        <stop offset="1" stop-color="#A389F4" stop-opacity="0" />
+        <stop stopColor="#A389F4" />
+        <stop offset="1" stopColor="#A389F4" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint9_linear_6102_115053"
@@ -269,8 +269,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="128.753"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" />
-        <stop offset="1" stop-color="#A389F4" stop-opacity="0" />
+        <stop stopColor="#A389F4" />
+        <stop offset="1" stopColor="#A389F4" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint10_linear_6102_115053"
@@ -280,8 +280,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="144.236"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" />
-        <stop offset="1" stop-color="#A389F4" stop-opacity="0" />
+        <stop stopColor="#A389F4" />
+        <stop offset="1" stopColor="#A389F4" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint11_linear_6102_115053"
@@ -291,8 +291,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="84.1715"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" stop-opacity="0" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#A389F4" stopOpacity="0" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint12_linear_6102_115053"
@@ -302,8 +302,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="115.642"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" stop-opacity="0" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#A389F4" stopOpacity="0" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint13_linear_6102_115053"
@@ -313,8 +313,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="163.579"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" stop-opacity="0" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#A389F4" stopOpacity="0" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint14_linear_6102_115053"
@@ -324,8 +324,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="221.542"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" stop-opacity="0" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#A389F4" stopOpacity="0" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint15_linear_6102_115053"
@@ -335,8 +335,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="475.459"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" stop-opacity="0" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#A389F4" stopOpacity="0" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint16_linear_6102_115053"
@@ -346,8 +346,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="499.844"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" stop-opacity="0" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#A389F4" stopOpacity="0" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint17_linear_6102_115053"
@@ -357,8 +357,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="503"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" />
-        <stop offset="1" stop-color="#A389F4" stop-opacity="0" />
+        <stop stopColor="#A389F4" />
+        <stop offset="1" stopColor="#A389F4" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint18_linear_6102_115053"
@@ -368,8 +368,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="503"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" stop-opacity="0" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#A389F4" stopOpacity="0" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint19_linear_6102_115053"
@@ -379,8 +379,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="499.503"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" stop-opacity="0" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#A389F4" stopOpacity="0" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint20_linear_6102_115053"
@@ -390,8 +390,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="163.579"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" stop-opacity="0" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#A389F4" stopOpacity="0" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint21_linear_6102_115053"
@@ -401,8 +401,8 @@ export const YearPlanIcon: React.FC<SVGAttributes> = () => (
         y2="221.542"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#A389F4" stop-opacity="0" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#A389F4" stopOpacity="0" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
     </defs>
   </svg>
@@ -416,8 +416,8 @@ export const Boost: React.FC<SVGAttributes> = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M41.6028 36.708C41.6028 36.0322 41.0549 35.4844 40.3791 35.4844H23.2486C22.5729 35.4844 22.025 36.0322 22.025 36.708V40.9911C22.025 41.6668 21.4772 42.2147 20.8014 42.2147L18.4395 42.2147C17.4179 42.2147 16.8462 43.3925 17.4781 44.1952L30.8526 61.183C31.3425 61.8053 32.2855 61.8053 32.7754 61.183L46.1499 44.1952C46.7818 43.3925 46.21 42.2147 45.1884 42.2147L42.8264 42.2147C42.1506 42.2147 41.6028 41.6668 41.6028 40.9911V36.708Z"
       fill="url(#paint0_linear_6102_115054)"
     />
@@ -427,7 +427,7 @@ export const Boost: React.FC<SVGAttributes> = () => (
       r="11.302"
       fill="white"
       stroke="url(#paint1_linear_6102_115054)"
-      stroke-width="1.86818"
+      strokeWidth="1.86818"
     />
     <circle
       cx="50.1675"
@@ -435,7 +435,7 @@ export const Boost: React.FC<SVGAttributes> = () => (
       r="11.302"
       fill="white"
       stroke="url(#paint2_linear_6102_115054)"
-      stroke-width="1.86818"
+      strokeWidth="1.86818"
     />
     <circle
       cx="31.2023"
@@ -443,7 +443,7 @@ export const Boost: React.FC<SVGAttributes> = () => (
       r="14.361"
       fill="url(#paint3_linear_6102_115054)"
       stroke="url(#paint4_linear_6102_115054)"
-      stroke-width="1.86818"
+      strokeWidth="1.86818"
     />
     <path
       d="M11.984 28.7953V15.4468H12.8391V28.7953H11.984ZM14.2522 19.8529C14.2104 19.4323 14.0314 19.1055 13.7151 18.8726C13.3988 18.6397 12.9695 18.5232 12.4272 18.5232C12.0587 18.5232 11.7476 18.5754 11.4938 18.6797C11.2401 18.7805 11.0454 18.9213 10.9098 19.102C10.7777 19.2828 10.7117 19.4879 10.7117 19.7173C10.7047 19.9085 10.7447 20.0754 10.8316 20.2179C10.922 20.3604 11.0454 20.4838 11.2018 20.5881C11.3583 20.6889 11.539 20.7775 11.7441 20.854C11.9492 20.927 12.1682 20.9896 12.4011 21.0417L13.3605 21.2711C13.8263 21.3754 14.2539 21.5145 14.6432 21.6883C15.0326 21.8621 15.3697 22.0759 15.6548 22.3296C15.9398 22.5834 16.1606 22.8823 16.317 23.2265C16.4769 23.5706 16.5586 23.9652 16.5621 24.4101C16.5586 25.0636 16.3917 25.6303 16.0615 26.11C15.7347 26.5862 15.262 26.9564 14.6432 27.2206C14.028 27.4813 13.2858 27.6117 12.4168 27.6117C11.5547 27.6117 10.8038 27.4796 10.1642 27.2154C9.52806 26.9512 9.03097 26.5601 8.67293 26.0422C8.31836 25.5208 8.13239 24.8759 8.11501 24.1077H10.2998C10.3241 24.4657 10.4267 24.7647 10.6074 25.0045C10.7916 25.2409 11.0367 25.4199 11.3426 25.5416C11.652 25.6598 12.0014 25.7189 12.3907 25.7189C12.7731 25.7189 13.105 25.6633 13.3866 25.552C13.6716 25.4408 13.8924 25.2861 14.0488 25.088C14.2052 24.8898 14.2834 24.6621 14.2834 24.4049C14.2834 24.1651 14.2122 23.9634 14.0697 23.8001C13.9306 23.6367 13.7255 23.4976 13.4544 23.3829C13.1867 23.2682 12.8582 23.1639 12.4689 23.0701L11.3061 22.7781C10.4058 22.5591 9.69492 22.2167 9.1735 21.7509C8.65207 21.2851 8.3931 20.6576 8.39657 19.8685C8.3931 19.222 8.56517 18.6571 8.91278 18.1739C9.26388 17.6907 9.74532 17.3135 10.3571 17.0424C10.9689 16.7713 11.6642 16.6357 12.4428 16.6357C13.2354 16.6357 13.9271 16.7713 14.5181 17.0424C15.1125 17.3135 15.5748 17.6907 15.9051 18.1739C16.2353 18.6571 16.4056 19.2167 16.4161 19.8529H14.2522Z"
@@ -466,8 +466,8 @@ export const Boost: React.FC<SVGAttributes> = () => (
         y2="61.6497"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3274D8" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#3274D8" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_6102_115054"
@@ -477,8 +477,8 @@ export const Boost: React.FC<SVGAttributes> = () => (
         y2="35.4858"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3274D8" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#3274D8" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_6102_115054"
@@ -488,8 +488,8 @@ export const Boost: React.FC<SVGAttributes> = () => (
         y2="35.4858"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3274D8" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#3274D8" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_6102_115054"
@@ -499,8 +499,8 @@ export const Boost: React.FC<SVGAttributes> = () => (
         y2="30.5902"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3274D8" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#3274D8" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint4_linear_6102_115054"
@@ -510,8 +510,8 @@ export const Boost: React.FC<SVGAttributes> = () => (
         y2="30.5902"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3274D8" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#3274D8" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint5_linear_6102_115054"
@@ -521,8 +521,8 @@ export const Boost: React.FC<SVGAttributes> = () => (
         y2="31.4604"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3274D8" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#3274D8" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint6_linear_6102_115054"
@@ -532,8 +532,8 @@ export const Boost: React.FC<SVGAttributes> = () => (
         y2="31.4604"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3274D8" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#3274D8" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
     </defs>
   </svg>
@@ -552,7 +552,7 @@ export const Profit: React.FC<SVGAttributes> = () => (
       r="15.423"
       fill="url(#paint0_linear_6102_115055)"
       stroke="url(#paint1_linear_6102_115055)"
-      stroke-width="2.00633"
+      strokeWidth="2.00633"
     />
     <path
       d="M16.0834 43.7477V27.0228H17.1548V43.7477H16.0834ZM18.9253 32.5433C18.8731 32.0163 18.6488 31.6069 18.2524 31.3151C17.8561 31.0233 17.3182 30.8774 16.6387 30.8774C16.177 30.8774 15.7872 30.9427 15.4693 31.0734C15.1513 31.1997 14.9074 31.3761 14.7376 31.6026C14.5721 31.829 14.4893 32.086 14.4893 32.3735C14.4806 32.613 14.5307 32.8221 14.6396 33.0006C14.7528 33.1792 14.9074 33.3338 15.1034 33.4645C15.2994 33.5908 15.5259 33.7019 15.7829 33.7977C16.0398 33.8892 16.3142 33.9676 16.6061 34.0329L17.8082 34.3203C18.3918 34.451 18.9275 34.6252 19.4153 34.843C19.9031 35.0608 20.3256 35.3286 20.6827 35.6466C21.0399 35.9645 21.3165 36.3391 21.5124 36.7703C21.7128 37.2015 21.8152 37.6958 21.8195 38.2533C21.8152 39.0721 21.6061 39.7821 21.1923 40.3831C20.7829 40.9798 20.1906 41.4437 19.4153 41.7747C18.6444 42.1013 17.7145 42.2647 16.6257 42.2647C15.5455 42.2647 14.6047 42.0992 13.8033 41.7681C13.0063 41.4371 12.3835 40.9471 11.9348 40.2982C11.4906 39.6449 11.2576 38.8369 11.2358 37.8744H13.9732C14.0037 38.323 14.1322 38.6976 14.3586 38.9981C14.5895 39.2943 14.8965 39.5186 15.2798 39.671C15.6675 39.8191 16.1052 39.8931 16.593 39.8931C17.0721 39.8931 17.488 39.8234 17.8408 39.6841C18.198 39.5447 18.4745 39.3509 18.6705 39.1026C18.8665 38.8544 18.9645 38.5691 18.9645 38.2468C18.9645 37.9462 18.8752 37.6936 18.6967 37.4889C18.5224 37.2842 18.2655 37.11 17.9257 36.9663C17.5904 36.8225 17.1788 36.6919 16.691 36.5743L15.2341 36.2084C14.106 35.934 13.2153 35.505 12.562 34.9214C11.9087 34.3378 11.5842 33.5516 11.5886 32.5629C11.5842 31.7528 11.7998 31.0451 12.2354 30.4397C12.6753 29.8342 13.2785 29.3617 14.0451 29.022C14.8116 28.6822 15.6827 28.5124 16.6583 28.5124C17.6514 28.5124 18.5181 28.6822 19.2585 29.022C20.0033 29.3617 20.5826 29.8342 20.9963 30.4397C21.4101 31.0451 21.6235 31.7463 21.6366 32.5433H18.9253Z"
@@ -560,14 +560,14 @@ export const Profit: React.FC<SVGAttributes> = () => (
     />
     <mask id="path-3-inside-1_6102_115055" fill="white">
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M27.516 49.6859C27.516 50.4117 28.1043 51 28.8301 51L40.3211 51C41.0468 51 41.6352 50.4117 41.6352 49.6859L41.6352 36.2633C41.6352 35.5376 42.2235 34.9492 42.9493 34.9492L43.2365 34.9492C44.2689 34.9492 44.8981 33.8135 44.3507 32.9383L35.4286 18.6735C34.9138 17.8505 33.7151 17.8505 33.2003 18.6735L24.2782 32.9383C23.7308 33.8135 24.36 34.9492 25.3923 34.9492L26.2019 34.9492C26.9277 34.9492 27.516 35.5376 27.516 36.2633L27.516 49.6859Z"
       />
     </mask>
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M27.516 49.6859C27.516 50.4117 28.1043 51 28.8301 51L40.3211 51C41.0468 51 41.6352 50.4117 41.6352 49.6859L41.6352 36.2633C41.6352 35.5376 42.2235 34.9492 42.9493 34.9492L43.2365 34.9492C44.2689 34.9492 44.8981 33.8135 44.3507 32.9383L35.4286 18.6735C34.9138 17.8505 33.7151 17.8505 33.2003 18.6735L24.2782 32.9383C23.7308 33.8135 24.36 34.9492 25.3923 34.9492L26.2019 34.9492C26.9277 34.9492 27.516 35.5376 27.516 36.2633L27.516 49.6859Z"
       fill="white"
     />
@@ -577,8 +577,8 @@ export const Profit: React.FC<SVGAttributes> = () => (
       mask="url(#path-3-inside-1_6102_115055)"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M39.3302 49.6859C39.3302 50.4117 39.9186 51 40.6443 51L52.0605 51C52.7862 51 53.3746 50.4117 53.3746 49.6859L53.3746 18.207C53.3746 17.4813 53.9629 16.8929 54.6887 16.8929L55.2744 16.8929C56.3067 16.8929 56.9359 15.7572 56.3885 14.882L47.4664 0.617179C46.9516 -0.20583 45.7529 -0.205831 45.2382 0.617179L36.3161 14.882C35.7686 15.7572 36.3979 16.8929 37.4302 16.8929L38.0161 16.8929C38.7419 16.8929 39.3302 17.4812 39.3302 18.207L39.3302 49.6859Z"
       fill="url(#paint3_linear_6102_115055)"
     />
@@ -591,8 +591,8 @@ export const Profit: React.FC<SVGAttributes> = () => (
         y2="50.9086"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3274D8" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#3274D8" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_6102_115055"
@@ -602,8 +602,8 @@ export const Profit: React.FC<SVGAttributes> = () => (
         y2="50.9086"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3274D8" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#3274D8" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_6102_115055"
@@ -613,8 +613,8 @@ export const Profit: React.FC<SVGAttributes> = () => (
         y2="13.4659"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3274D8" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#3274D8" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_6102_115055"
@@ -624,8 +624,8 @@ export const Profit: React.FC<SVGAttributes> = () => (
         y2="-0.000237406"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3274D8" />
-        <stop offset="1" stop-color="#A389F4" />
+        <stop stopColor="#3274D8" />
+        <stop offset="1" stopColor="#A389F4" />
       </linearGradient>
     </defs>
   </svg>

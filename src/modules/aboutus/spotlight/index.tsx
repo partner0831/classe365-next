@@ -26,7 +26,7 @@ export const Spotlight: React.FC = () => {
       </Styled.SpotWrapper>
       <Styled.SwiperWrapper>
         <Styled.SwiperContainer>
-          <Swiper
+          {/* <Swiper
             slidesPerView={"auto"}
             spaceBetween={30}
             pagination={{
@@ -40,6 +40,44 @@ export const Spotlight: React.FC = () => {
             modules={[Pagination, Navigation]}
             className="mySwiper"
           >
+            {spotdata.map((item, key) => (
+              <SwiperSlide key={key}>
+                <Comp.SportCard
+                  logo={item.src}
+                  content={item.content}
+                  color={item.color}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper> */}
+          <Swiper
+            slidesPerView={"auto"}
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            loop
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            {spotdata.map((item, key) => (
+              <SwiperSlide key={key}>
+                <Comp.SportCard
+                  logo={item.src}
+                  content={item.content}
+                  color={item.color}
+                />
+              </SwiperSlide>
+            ))}
+            {/* {spotdata.map((item, key) => (
+              <SwiperSlide key={key}>
+                <Comp.SportCard
+                  logo={item.src}
+                  content={item.content}
+                  color={item.color}
+                />
+              </SwiperSlide>
+            ))} */}
             {spotdata.map((item, key) => (
               <SwiperSlide key={key}>
                 <Comp.SportCard

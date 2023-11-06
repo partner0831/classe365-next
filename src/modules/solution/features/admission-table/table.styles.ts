@@ -1,65 +1,56 @@
 import { styled } from "styled-components";
 
 export const TableSectionWrapper = styled.div`
-  max-width: 1000px;
+  max-width: 1028px;
   width: 95%;
   margin: auto;
-  padding: 0 0 120px;
+  padding: 64px;
+  border-radius: 30px;
+  background: var(--grey-lighter, #FAFAFA);
   @media screen and (max-width: 768px) {
-    padding: 0 0 60px;
   }
+
 `;
 
 export const TableHeaderWrapper = styled.div`
-  height: 93px;
   display: flex;
-  span {
-    background: #f1f6fa;
-    border-radius: 4px 4px 0px 0px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    &:first-child {
-      padding-left: 43px;
-      max-width: 644px;
-      width: 100%;
-      margin-right: 18px;
-      color: #000;
-      font-size: 24px;
-      font-weight: 700;
-    }
-    &:last-child {
-      height: 100%;
-      flex: 1;
-    }
+  flex-direction: column;
+  h1{
+    color: var(--site-heading, #1E2123);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
   }
-  @media screen and (max-width: 768px) {
-    span:first-child {
-      margin-right: 0;
-      max-width: 100%;
-      padding: 0 20px;
-    }
-    span:last-child {
-      display: none;
-    }
+  h2{
+    color: var(--text-grey-light, #555);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 16px;
   }
 `;
 
 export const TableBodyWrapper = styled.div`
-  & > :nth-child(even) {
+  margin: 70px 0 30px 0;
+  /* & > :nth-child(even) { */
     span {
-      background-color: #f1f6fa;
+      background-color: #fff;
     }
-  }
+  /* } */
 `;
 
 export const TableRowWrapper = styled.div`
   min-height: 50px;
   display: flex;
+  margin-top: 8px;
   span {
     display: flex;
     align-items: center;
-
+    color: var(--text-grey-light, #555);
     &:first-child {
       padding-left: 43px;
       max-width: 644px;
@@ -91,3 +82,15 @@ export const TableRowWrapper = styled.div`
     }
   }
 `;
+export const Service = styled.div`
+    h6{
+        color: var(--text-light, #7C7C7C);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 8px;
+    }
+    margin-bottom: 32px;
+`

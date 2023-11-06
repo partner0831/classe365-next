@@ -31,14 +31,5 @@ export const slidata = [
     pos: "Swiss International College of Osteopathy",
     color:"#F3EFFF"
   },
-  {
-    title: "New Schools need Classe365",
-    content1:
-      "We are very grateful to Classe365 staff and tech support team who have been purposeful and responsive to meet the needs of our multilingual institution. The Knowledgeable is a helpful start but if we request extra detail, the staff come through for us. If we see something needed and they hear the same need...",
-    content2: "",
-    name: "Darlene Perry ",
-    role: "Administrator",
-    pos: "Thirdmill Seminary",
-    color:"#FAFAFA"
-  },
+ 
 ];

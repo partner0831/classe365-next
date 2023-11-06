@@ -35,6 +35,19 @@ export const Slider: React.FC = () => {
             />
           </SwiperSlide>
         ))}
+        {slidata.map((item, key) => (
+          <SwiperSlide key={key}>
+            <Comp.ReviewCard
+              header={item.title}
+              content1={item.content1}
+              content2={item.content2}
+              name={item.name}
+              role={item.role}
+              pos={item.pos}
+              color={item.color}
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
       <Styled.CustomNavigator>
         <span className="prevS">

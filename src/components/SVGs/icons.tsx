@@ -406,15 +406,15 @@ export const StickIcon: React.FC<SVGAttributes> = () => (
     viewBox="0 0 2 130"
     fill="none"
   >
-    <path d="M0.999957 0L1 60" stroke="#4ED163" stroke-width="2" />
+    <path d="M0.999957 0L1 60" stroke="#4ED163" strokeWidth="2" />
     <line
       x1="1"
       y1="60"
       x2="1"
       y2="130"
       stroke="white"
-      stroke-width="2"
-      stroke-dasharray="4 4"
+      strokeWidth="2"
+      strokeDasharray="4 4"
     />
   </svg>
 );

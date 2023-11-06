@@ -11,8 +11,8 @@
 <path id="Vector_5" d="M51.786 16.0165L53.0674 18.5791C53.1741 18.7927 53.2809 18.8995 53.4945 18.8995L56.2706 19.3266C56.8045 19.4333 56.9113 19.9672 56.591 20.3943L54.5622 22.4231C54.4554 22.4231 54.3487 22.6366 54.4554 22.8502L54.9893 25.6264C55.0961 26.1602 54.5622 26.4806 54.1351 26.267L51.5725 24.9857C51.3589 24.8789 51.1454 24.8789 51.0386 24.9857L48.476 26.267C48.0489 26.4806 47.515 26.1602 47.6218 25.6264L48.1556 22.8502C48.1556 22.6366 48.1557 22.4231 47.9421 22.3163L45.8066 20.2876C45.4862 19.9672 45.6998 19.3266 46.1269 19.2198L48.9031 18.7927C49.1166 18.7927 49.2234 18.6859 49.3302 18.4724L50.6115 15.9097C50.9318 15.5894 51.5725 15.5894 51.786 16.0165Z" stroke="#1E2123" stroke-miterlimit="10"/>
 </g>
 <defs>
-<filter id="filter0_i_2491_9200" x="0.535156" y="17.5112" width="31.8193" height="29.6879" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter0_i_2491_9200" x="0.535156" y="17.5112" width="31.8193" height="29.6879" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="3"/>
@@ -21,8 +21,8 @@
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 <feBlend mode="normal" in2="shape" result="effect1_innerShadow_2491_9200"/>
 </filter>
-<filter id="filter1_i_2491_9200" x="13.7734" y="24.6653" width="31.8193" height="29.7947" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter1_i_2491_9200" x="13.7734" y="24.6653" width="31.8193" height="29.7947" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="3"/>

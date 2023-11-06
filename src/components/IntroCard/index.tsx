@@ -15,7 +15,7 @@ export const IntroCard: React.FC<IntroCardProps> = ({
   key,
 }) => {
   return (
-    <Styled.IntroCardWrapper color={color}>
+    <Styled.IntroCardWrapper color={color} key={key}>
       <h1>{header}</h1>
       <h2>{name}</h2>
       <h3>{role}</h3>

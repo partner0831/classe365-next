@@ -15,9 +15,5 @@ export const spotdata = [
       "Aussie edtech vendor Classe365 hunts partners as it takes on the world",
     color: "#A389F4",
   },
-  {
-    src: "./assets/images/aboutus/FT.png",
-    content: "FT ranking: Asia-Pacific High-Growth Companies 2021",
-    color: "#3274D8",
-  },
+
 ];
