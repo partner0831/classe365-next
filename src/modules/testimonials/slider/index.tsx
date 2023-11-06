@@ -11,7 +11,6 @@ export const Slider: React.FC = () => {
     <Styled.SliderWrapper>
       <Swiper
         slidesPerView={"auto"}
-        spaceBetween={30}
         pagination={{
           enabled: true,
         }}
@@ -21,6 +20,20 @@ export const Slider: React.FC = () => {
         }}
         loop
         modules={[Pagination, Navigation]}
+        breakpoints={{
+          425: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        }}
       >
         {slidata.map((item, key) => (
           <SwiperSlide key={key}>

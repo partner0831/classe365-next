@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const ReviewCardWrapper = styled.div<{ color?: string }>`
     max-width: 391px;
     width: 100%;
-    height: 424px;
+    min-height: 424px;
+    height: fit-content;
+    height: 100%;
     border-radius: 12px;
     padding: 27px 24px;
     background-color: ${( {color} ) => (color ? color : "#f1f6fa")};;
