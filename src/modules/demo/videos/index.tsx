@@ -14,7 +14,7 @@ export const Videos: React.FC = () => {
     const video: any = document.getElementById(id);
     video?.play();
   };
-
+  const [swiper, setSwiper] = useState<any | null>(null);
   return (
     <Styled.VideosWrapper>
       <h1>On-Demand Videos</h1>
@@ -34,7 +34,13 @@ export const Videos: React.FC = () => {
               </h3>
               <div>
                 {item.data.map((item1, key1) => (
-                  <p key={key1} className={slideIndex === key1 ? "active" : ""}>
+                  <p
+                    key={key1}
+                    className={slideIndex === key1 ? "active" : ""}
+                    onClick={() => {
+                      swiper.slideTo(key1);
+                    }}
+                  >
                     <span>
                       <AiOutlineRight size={12} />
                     </span>
@@ -51,6 +57,7 @@ export const Videos: React.FC = () => {
                     onSlideChange={(e) => setSlideIndex(e.realIndex)}
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
+                    onSwiper={setSwiper}
                   >
                     {videoData[active].data.map((video, key) => (
                       <SwiperSlide key={key}>
@@ -88,6 +95,7 @@ export const Videos: React.FC = () => {
             onSlideChange={(e) => setSlideIndex(e.realIndex)}
             modules={[Pagination, Navigation]}
             className="mySwiper"
+            onSwiper={setSwiper}
           >
             {videoData[active].data.map((video, key) => (
               <SwiperSlide key={key}>
