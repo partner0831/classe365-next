@@ -22,7 +22,7 @@ export const institutions = [
   },
   {
     title: "Corporate Learning",
-    text: "Did you know that corporations can use Classe365’ to make learning management a whole lot easier? Organize, track, and report with ease!",
+    text: "Did you know that corporations can use Classe365 to make learning management a whole lot easier? Organize, track, and report with ease!",
     image: "/assets/images/institution/4.png",
     amount: "8.9",
     desc: "NPS score for Classe365! Join our happy customers who trust our advanced education management system.",
