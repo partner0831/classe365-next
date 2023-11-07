@@ -47,8 +47,10 @@ export const EducationWrapper = styled.div`
  
     }
     @media screen and (max-width:768px){
+        margin:50px auto auto auto;
         div{
             flex-direction: column;
+            margin-top: 30px;
             img{
                 width: 100%;
                 margin: 0 0 20px 0;

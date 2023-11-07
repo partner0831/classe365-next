@@ -11,7 +11,7 @@ export const Story: React.FC = () => {
       </h1>
       <div>
         <div>
-          <p>our vission</p>
+          <p>our Vision</p>
           <h2>Redefining the Future of Learning For All</h2>
         </div>
         <div>

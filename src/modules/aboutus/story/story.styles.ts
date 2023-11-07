@@ -15,6 +15,7 @@ export const StoryWrapper = styled.div`
         line-height: normal;
         letter-spacing: 1.4px;
         text-transform: uppercase;  
+        text-align: center;
     }
     h1{
         max-width: 894px;

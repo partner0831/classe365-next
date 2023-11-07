@@ -19,7 +19,6 @@ export const NavigationWrapper = styled.div`
     font-weight: 400;
   }
   @media screen and (max-width: 1024px) {
-    text-align: left;
     & > h1 {
       margin: 0;
       margin-bottom: 28px;
