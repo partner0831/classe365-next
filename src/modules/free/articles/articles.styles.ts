@@ -43,7 +43,7 @@ export const HelpArticlesGridWrapper = styled.div`
   @media screen and (max-width: 1024px) {
     grid-template-columns: repeat(2, 1fr);
   }
-  @media screen and (max-width: 460px) {
+  @media screen and (max-width: 525px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -95,7 +95,7 @@ export const HelpArticleGridItem = styled.div`
     }
     position: absolute;
     bottom: 0;
-    height: 130px;
+    min-height: 130px;
     width: 100%;
     padding: 24px 30px;
     &::after {
@@ -117,11 +117,11 @@ export const HelpArticleGridItem = styled.div`
       font-weight: 700;
       margin-bottom: 12px;
       overflow: hidden;
-      text-overflow: ellipsis;
+      /* text-overflow: ellipsis;
       display: -webkit-box;
       -webkit-line-clamp: 1;
 
-      -webkit-box-orient: vertical;
+      -webkit-box-orient: vertical; */
     }
     p {
       position: relative;
@@ -131,21 +131,19 @@ export const HelpArticleGridItem = styled.div`
       font-weight: 400;
       line-height: 22px; /* 137.5% */
 
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-
-      -webkit-box-orient: vertical;
+     
     }
   }
   @media screen and (max-width: 768px) {
     min-height: 300px;
     height: 300px;
   }
-  @media screen and (max-width: 460px) {
+  @media screen and (max-width: 525px) {
     min-height: 200px;
     height: auto;
+    h2 {
+      font-size: 16px;
+    }
     span {
       img {
         width: 100%;
@@ -225,7 +223,7 @@ export const HelpArticlesGridAreaWrapper = styled.div`
       border-radius: 24px 24px 0 0;
     }
   }
-  @media screen and (max-width: 460px) {
+  @media screen and (max-width: 525px) {
     grid-area: 1 / 1;
   }
 `;
