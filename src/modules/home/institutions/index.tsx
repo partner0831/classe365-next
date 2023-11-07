@@ -77,7 +77,7 @@ export const Institutions: React.FC<Props> = ({
               <SwiperSlide key={index}>
                 <Styled.InstitutionSwiperItemWrapper>
                   <h3>{row.title}</h3>
-                  <p>{row.text}</p>
+                  <p className="institution-desktop">{row.text}</p>
                   <div className="image-wrapper">
                     <img
                       src={
@@ -88,10 +88,11 @@ export const Institutions: React.FC<Props> = ({
                       alt=""
                     />
                   </div>
-                  <div className="info-wrapper">
+                  <p className="institution-mobile">{row.text}</p>
+                  {/* <div className="info-wrapper">
                     <h1>{row.amount}</h1>
                     <span>{row.desc}</span>
-                  </div>
+                  </div> */}
                 </Styled.InstitutionSwiperItemWrapper>
               </SwiperSlide>
             ))}

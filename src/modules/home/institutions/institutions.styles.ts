@@ -121,7 +121,16 @@ export const InstitutionItemWrapper = styled.div`
 
 export const InsititutionSwiper = styled.div`
   display: none;
+  .institution-mobile{
+    display: none;
+  }
   @media screen and (max-width: 1024px) {
+    .institution-mobile{
+      display: block;
+    }
+    .institution-desktop{
+      display: none;
+    }
     display: block;
     width: 95%;
     margin: auto;
@@ -151,6 +160,7 @@ export const InstitutionSwiperItemWrapper = styled.div`
   border-radius: 12px;
   border: 1px solid #fff;
   height: 100%;
+
   h3 {
     height: 56px;
     min-width: 197px;
