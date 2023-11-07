@@ -82,7 +82,7 @@ export const LandingSectionWrapper = styled.div`
   @media screen and (max-width: 480px) {
     h1 {
       b {
-        max-width: 282px;
+        /* max-width: 282px; */
       }
     }
   }
