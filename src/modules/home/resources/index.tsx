@@ -25,7 +25,7 @@ export const Resources: React.FC<Props> = ({ data = resources, title }) => {
             <Comp.ResourceCard {...row} key={index} />
           ))}
       </Styled.ResourcesGridWrapper>
-      <Styled.SeeMore>
+      <Styled.SeeMore href="/free">
         <span>See more resources</span>
         <BsArrowRight />
       </Styled.SeeMore>
