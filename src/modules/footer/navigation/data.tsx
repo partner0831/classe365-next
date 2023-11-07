@@ -3,47 +3,47 @@ import * as Icon from "react-icons/fa";
 export const features = [
   {
     label: "Pre-admissions and enrolment",
-    link: "#",
+    link: "/solution/features/pre",
   },
   {
     label: "Customer Relationship Management",
-    link: "#",
+    link: "/solution/features/customer",
   },
   {
     label: "Student Information System",
-    link: "#",
+    link: "/solution/features/student",
   },
   {
     label: "Learning Management System",
-    link: "#",
+    link: "/solution/features/learning",
   },
   {
     label: "Fees & Invoicing",
-    link: "#",
+    link: "/solution/features/fee",
   },
   {
     label: "Finance & Accounting",
-    link: "#",
+    link: "/solution/features/finance",
   },
   {
     label: "E-Commerce Module",
-    link: "#",
+    link: "/solution/features/ecommerce",
   },
   {
     label: "Fund Raising",
-    link: "#",
+    link: "/solution/features/analytics",
   },
   {
     label: "Degree Audit",
-    link: "#",
+    link: "/solution/features/apps",
   },
   {
     label: "Alumni",
-    link: "#",
+    link: "/solution/features/alumni",
   },
   {
     label: "White Label Module",
-    link: "#",
+    link: "/solution/features/white",
   },
 ];
 
@@ -54,15 +54,15 @@ export const company = [
   },
   {
     label: "About us",
-    link: "#",
+    link: "/about",
   },
   {
     label: "Pricing",
-    link: "#",
+    link: "/pricing",
   },
   {
     label: "Careers",
-    link: "#",
+    link: "/careers",
   },
   {
     label: "Terms & Conditions",
@@ -105,7 +105,7 @@ export const company = [
 export const resources = [
   {
     label: "Help Docs",
-    link: "#",
+    link: "/help",
   },
   {
     label: "Video Tutorials",
@@ -113,11 +113,11 @@ export const resources = [
   },
   {
     label: "API Docs",
-    link: "#",
+    link: "/apis",
   },
   {
     label: "Demo & Webinars",
-    link: "#",
+    link: "/demo",
   },
   {
     label: "Cloud Security",
@@ -125,7 +125,7 @@ export const resources = [
   },
   {
     label: "Product Updates",
-    link: "#",
+    link: "https://updates.classe365.com/en",
   },
 ];
 
