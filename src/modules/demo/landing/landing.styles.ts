@@ -27,7 +27,7 @@ export const LandingWrapper = styled.div`
 `;
 
 export const LandingWaveAnim = styled.div`
-  height: 5%;
+  height: 14%;
   width: 100%;
   position: absolute;
   bottom: 0;
