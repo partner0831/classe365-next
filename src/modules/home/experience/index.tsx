@@ -71,7 +71,7 @@ export const Experience: React.FC<Props> = ({ data = experiences, title }) => {
       <div className="trusted">
         <Trusted />
       </div>
-      <div>
+      <div style={{ margin: "100px 0 0 0" }}>
         <Styled.ImageWrapper id="experience-navbar">
           {data?.map((_, key) => (
             <a
