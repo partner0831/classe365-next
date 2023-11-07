@@ -3,6 +3,15 @@ import { styled } from "styled-components";
 export const SolutionsWrapper = styled.div`
   background: #f9f9ff;
   padding: 90px 0;
+  @media screen and (max-width: 1500px) {
+    padding: 90px 0 200px 0;
+  }
+  @media screen and (max-width: 1280px) {
+    padding: 90px 0 350px 0;
+  }
+  @media screen and (max-width: 1024px) {
+    padding: 90px 0 500px 0;
+  }
   @media screen and (max-width: 768px) {
     background-color: #fff;
     padding: 56px 0;
