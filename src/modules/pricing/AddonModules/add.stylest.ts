@@ -65,11 +65,17 @@ export const AddModuleTableRow = styled.div`
   display: flex;
   background: #fff;
   flex-wrap: wrap;
+  a{
+    text-decoration: none;
+  }
   div {
     padding: 34px 44px;
   }
   .row1 {
     width: 50%;
+    img{
+      margin-right: 16px;
+    }
     h3 {
       display: flex;
       align-items: center;

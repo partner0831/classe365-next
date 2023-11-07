@@ -45,9 +45,13 @@ export const InvesterWrapper = styled.div`
         line-height: normal;
     }
     @media screen and (max-width:768px) {
+        h2{
+            margin-top: 12px;
+        }
         h3{
             font-size: 28px;
-            padding: 20px;
+            padding: 0px;
+            margin: 12px 0;
         }
     }
 `;

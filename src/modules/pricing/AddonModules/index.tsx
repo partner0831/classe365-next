@@ -18,10 +18,14 @@ export const AddonModules: React.FC = () => {
             <Styled.AddModuleTableRow key={index}>
               <div className="row1">
                 <h3>
-                  {row.icon} {row.title}
+                  {/* {row.icon} {row.title} */}
+                  <img src={row.image} width={32} height={32} alt="logo" />{" "}
+                  {row.title}
                 </h3>
                 <p>{row.desc}</p>
-                <span>Learn More</span>
+                <a href={row.to}>
+                  <span>Learn More</span>
+                </a>
               </div>
               <div className="row2">
                 <h4>{row.price}</h4>

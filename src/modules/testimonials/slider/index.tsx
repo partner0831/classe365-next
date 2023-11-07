@@ -18,7 +18,6 @@ export const Slider: React.FC = () => {
           prevEl: ".prevS",
           nextEl: ".nextS",
         }}
-        loop
         modules={[Pagination, Navigation]}
         breakpoints={{
           425: {
@@ -35,19 +34,6 @@ export const Slider: React.FC = () => {
           },
         }}
       >
-        {slidata.map((item, key) => (
-          <SwiperSlide key={key}>
-            <Comp.ReviewCard
-              header={item.title}
-              content1={item.content1}
-              content2={item.content2}
-              name={item.name}
-              role={item.role}
-              pos={item.pos}
-              color={item.color}
-            />
-          </SwiperSlide>
-        ))}
         {slidata.map((item, key) => (
           <SwiperSlide key={key}>
             <Comp.ReviewCard
