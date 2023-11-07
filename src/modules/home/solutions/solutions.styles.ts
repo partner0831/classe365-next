@@ -5,7 +5,7 @@ export const SolutionsWrapper = styled.div`
   padding: 90px 0;
   @media screen and (max-width: 768px) {
     background-color: #fff;
-    padding: 16px 0 56px;
+    padding: 56px 0;
   }
 `;
 

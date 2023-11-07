@@ -65,9 +65,9 @@ export const LandingSectionWrapper = styled.div`
     padding: 22px 0 30px;
     align-items: flex-start;
     h1 {
-      text-align: left;
       line-height: 40px;
       font-size: 36px;
+      width: 100%;
       span {
         display: block;
       }

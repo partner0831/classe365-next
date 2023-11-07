@@ -21,6 +21,7 @@ export const TrustedSectionWrapper = styled.div`
       font-size: 14px;
     }
   }
+
 `;
 
 export const ImageWrapper = styled.div`
