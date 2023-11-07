@@ -7,6 +7,7 @@ export const ExperienceSectionWrapper = styled.div`
     margin-bottom: -60px;
     @media screen and (max-width: 768px) {
       margin-bottom: 0;
+      padding-top: 0;
       padding-bottom: 50px;
     }
   }

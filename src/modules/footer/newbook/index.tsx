@@ -11,7 +11,7 @@ export const NewBook: React.FC = () => {
       <Styled.NewBookSectionWrapper>
         <Styled.NewBookContainer>
           <Styled.NewBookTextWrapper>
-            <h3>Trusted by 5500+ educational institutions in 130 countries</h3>
+            <h3>Trusted by 6000+ educational institutions in 130 countries</h3>
             <div>
               <Comp.Button bg="#F1F6FA" border="#F1F6FA" font="#393C59">
                 <span>Try For Free</span>
