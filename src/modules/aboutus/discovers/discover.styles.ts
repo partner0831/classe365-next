@@ -21,7 +21,7 @@ export const DiscoverWrapper = styled.div`
 export const PlanView = styled.div`
     display: flex;
     justify-content: space-between;
-
+    margin: 117px 0 150px 0;
     h2{
       color: var(--bright-blue, #6772E5);
       font-size: 32px;

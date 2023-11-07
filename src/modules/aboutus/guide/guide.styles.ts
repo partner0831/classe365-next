@@ -42,7 +42,7 @@ export const GuideWrapper = styled.div`
         grid-gap: 56px;
     }
     @media screen and (max-width: 1024px) {
-    padding: 80px 40px;
+    padding: 80px 20px;
         & > div {
         grid-template-columns: repeat(2, 1fr);
             div.empty {

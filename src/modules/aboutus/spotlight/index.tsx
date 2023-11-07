@@ -11,13 +11,13 @@ export const Spotlight: React.FC = () => {
     <Styled.SpotContainer>
       <Styled.SpotWrapper>
         <div>
-          <h1>careers</h1>
-          <h2>Join the Team</h2>
+          <h1>press</h1>
+          <h2>Our Media Spotlight</h2>
           <h3>
-            As per the Financial Times, Classe365 is among the rapidly expanding
-            companies in Asia Pacific, and we have even more ambitious plans for
-            the future. Explore our current job openings and send in your
-            resume. We eagerly await your response!
+            At Classe365, we are proud to be acknowledged for our dedication to
+            transforming the learning process by the media. Check out our news
+            highlights and keep following us for the latest updates on our
+            journey to revolutionize education.
           </h3>
           <Comp.Button size="sm">
             <span>Download Press Kit</span>
