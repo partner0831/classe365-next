@@ -9,7 +9,8 @@ export const coreModules = [
   },
   {
     title: "Messaging & Communication",
-    text: "Stay in contact with parents and students effortlessly with our SMS & Email communication engine! Enjoy 50 free monthly SMS on all plans and low-cost SMS top-ups after that.",
+    text: "Stay in contact with parents and students effortlessly with our SMS & Email communication engine!",
+    // Enjoy 50 free monthly SMS on all plans and low-cost SMS top-ups after that.
   },
   {
     title: "Social Learning",
@@ -17,7 +18,7 @@ export const coreModules = [
   },
   {
     title: "Administration",
-    text: "Streamline your school admin tasks with Classe365. You get user-friendly features like Excel/CSV import/export, module personalization, IOS/Android apps, and support for 100+ languages.",
+    text: "Streamline your school admin tasks with Classe365. You get user-friendly features like Excel/CSV import/export, module personalization, iOS/Android apps, and support for 100+ languages.",
   },
   {
     title: "Students & Parents",
