@@ -132,7 +132,8 @@ export const addModules = [
   },
   {
     icon: <Shape.Shape13 />,
-    to: "",
+    to: "/",
+    image: "/assets/images/shapes/education-agent.png",
     title: "Education Agent Module",
     desc: "Easily build and keep up with your network of education agents using Classe365's Education Agent Module! It's a great way to stay connected and manage your network.",
     price: "$50/Month",
@@ -145,7 +146,8 @@ export const addModules = [
   },
   {
     icon: <Shape.Shape14 />,
-    to: "",
+    to: "/",
+    image: "/assets/images/shapes/Enteprise-pro-plan.png",
     title: "Enterprise Pro Plan",
     desc: "Classe365's Enterprise Pro Plan gives you access to pro-level features, increased storage space, customisations, and more to help your school reach its full potential.",
     price: "$50/Month",
