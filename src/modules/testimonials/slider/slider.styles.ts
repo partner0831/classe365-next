@@ -29,11 +29,20 @@ export const CustomNavigator = styled.div`
         cursor: pointer;
         width: 46px;
         height: 46px;
-        border: 1px solid #6772e5;
+
         border-radius: 9999px;
         &:not(:first-child) {
         margin-left: 12px;
         }
     }
-
+    .swiper-button-disabled{
+      border:0.754px solid #DBDBDB !important;
+      svg{
+        color: #DBDBDB !important;
+      }
+    }
   `;
+  export const SliderPointer = styled.span<{border?:string}>`
+        border: ${({border})=>border==="active"?"0.754px solid var(--grey-light, #DBDBDB)":"1px solid #6772e5"};
+        cursor: ${({border})=>border==="active"?"not-allowed !important":"pointer"};
+  `
