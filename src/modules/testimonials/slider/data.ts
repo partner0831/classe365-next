@@ -63,4 +63,15 @@ export const slidata = [
     pos: "Swiss International College of Osteopathy",
     color:"#F3EFFF"
   },
+  {
+    title: "Classe365 Review",
+    content1:
+      "Classe365 is a good software for Admission and Class registration.",
+    content2:
+      "The technical support team is very helpful especially [sensitive content hidden]. We encountered 2 issues recently on email notifications and duplicate student records and they were able to resolve both.",
+    name: "Melanie Uzunova",
+    role: "Academic Coordinator",
+    pos: "Swiss International College of Osteopathy",
+    color:"#F3EFFF"
+  },
 ];

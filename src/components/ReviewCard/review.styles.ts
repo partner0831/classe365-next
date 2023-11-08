@@ -55,6 +55,10 @@ export const ReviewCardWrapper = styled.div<{ color?: string }>`
         }
         min-height: 480px;
     }
+    @media screen and (max-width:1024px) {
+        max-width: 100%;
+    }
+  
     @media screen and (max-width:425px) {
         max-width: 100%;
         width: 100%;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import * as Comp from "@/components";
 import * as Styled from "./slider.styles";
 import { Pagination, Navigation } from "swiper/modules";
@@ -7,6 +7,8 @@ import { slidata } from "./data";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 
 export const Slider: React.FC = () => {
+  const [active, setActive] = useState(0);
+
   return (
     <Styled.SliderWrapper>
       <Swiper
@@ -33,6 +35,9 @@ export const Slider: React.FC = () => {
             spaceBetween: 30,
           },
         }}
+        onSlideChange={(swiper) => {
+          setActive(swiper.activeIndex);
+        }}
       >
         {slidata.map((item, key) => (
           <SwiperSlide key={key}>
@@ -49,12 +54,15 @@ export const Slider: React.FC = () => {
         ))}
       </Swiper>
       <Styled.CustomNavigator>
-        <span className="prevS">
-          <HiOutlineArrowLeft />
-        </span>
-        <span className="nextS">
+        <Styled.SliderPointer
+          className="prevS"
+          border={active === 0 ? "active" : "normal"}
+        >
+          <HiOutlineArrowLeft color={active === 0 ? "#DBDBDB" : "#6772e5"} />
+        </Styled.SliderPointer>
+        <Styled.SliderPointer className="nextS">
           <HiOutlineArrowRight />
-        </span>
+        </Styled.SliderPointer>
       </Styled.CustomNavigator>
     </Styled.SliderWrapper>
   );
