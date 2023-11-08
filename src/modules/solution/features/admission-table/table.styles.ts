@@ -37,13 +37,16 @@ export const TableHeaderWrapper = styled.div`
   }
   @media screen and (max-width: 425px) {
     h1 {
-      font-size: 28px;
+      font-size: 24px;
     }
   }
 `;
 
 export const TableBodyWrapper = styled.div`
   margin: 70px 0 30px 0;
+  @media screen and (max-width: 425px) {
+    margin: 20px 0 30px 0;
+  }
   /* & > :nth-child(even) { */
     span {
       background-color: #fff;

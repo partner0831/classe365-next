@@ -18,7 +18,9 @@ export const VideosWrapper = styled.div`
     max-width: 1080px;
     margin: auto;
   }
+
   @media screen and (max-width: 425px) {
+    padding: 30px 0 0 0;
     h1 {
       font-size: 28px;
       margin-bottom: 0;

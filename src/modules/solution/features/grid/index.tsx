@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaChevronDown } from "react-icons/fa";
+import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 import { STRAPI_API } from "@/config";
 import * as Styled from "./grid.styles";
 
@@ -30,7 +30,7 @@ export const Grid: React.FC<Props> = ({ data }) => {
                 setCollapse((prev) => (prev === index ? -1 : index))
               }
             >
-              <FaChevronDown />
+              {collapse === index ? <FaChevronUp /> : <FaChevronDown />}
             </div>
           </div>
         </Styled.GridItemWrapper>

@@ -41,6 +41,6 @@ export const plandata = [
   {
     year: "2022",
     content:
-      "Second consecutive year awarded the Fast 50 EdTech ANZ, Top 100 High Growth Companies by Financial Times and reached the milestone of 6000 customers",
+      "Second consecutive year awarded the Fast 50 EdTech ANZ, Top 100 High Growth Companies by Financial Times and reached the milestone of 6,000 customers",
   },
 ];
