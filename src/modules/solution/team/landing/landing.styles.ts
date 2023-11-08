@@ -24,7 +24,7 @@ export const LandingSectionWrapper = styled.div`
     margin-bottom: 14px;
     max-width: 780px;
   }
-  p {
+  h5 {
     color: #555;
     text-align: center;
     font-size: 18px;

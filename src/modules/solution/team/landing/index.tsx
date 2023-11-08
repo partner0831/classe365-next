@@ -2,7 +2,7 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import * as Comp from "@/components";
 import * as Styled from "./landing.styles";
-
+import { Trusted } from "@/modules/solution/institutes";
 type Props = {
   subtitle: string;
   subtitleColor: string;
@@ -61,7 +61,7 @@ export const Landing: React.FC<Props> = ({
           {title[2]}
         </h1>
       )}
-      <p>{description}</p>
+      <h5>{description}</h5>
       <Styled.ButtonWrapper>
         <Comp.Button
           bg="#6772E5"
@@ -76,13 +76,7 @@ export const Landing: React.FC<Props> = ({
           Book a Demo
         </Comp.Button>
       </Styled.ButtonWrapper>
-      <Styled.ImageWrapper>
-        {imgs.map((img, index) => (
-          <div key={index}>
-            <img src={img.src} alt="" width={img.width} />
-          </div>
-        ))}
-      </Styled.ImageWrapper>
+      <Trusted />
     </Styled.LandingSectionWrapper>
   );
 };

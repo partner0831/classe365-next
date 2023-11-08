@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const FeaturesWrapper = styled.div`
-  padding: 120px 0 0;
+  /* padding: 120px 0 0; */
   max-width: 1240px;
   width: 95%;
   margin: auto;
