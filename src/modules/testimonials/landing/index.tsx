@@ -32,7 +32,7 @@ export const Landing: React.FC = () => {
           <p>Hight Growth Company - Financial Times</p>
         </div>
         <div>
-          <h2>5,500+</h2>
+          <h2>6,000+</h2>
           <p>Education institutions</p>
         </div>
         <div>
