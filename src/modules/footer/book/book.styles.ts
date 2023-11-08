@@ -15,6 +15,8 @@ export const BookSectionContainer = styled.div`
   width: 95%;
   margin: auto;
   position: absolute;
+  display: flex;
+  flex-direction: column;
   * {
     transition: all 0.3s;
   }
@@ -50,6 +52,7 @@ export const BookSectionContainer = styled.div`
     }
   }
   @media screen and (max-width: 768px) {
+    align-items: center;
     position: relative;
     padding-top: 60px;
     p {
