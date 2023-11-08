@@ -75,6 +75,7 @@ export const HelpingInfoWrapper = styled.div`
     max-width: 100%;
     width: 100%;
     margin-bottom: 20px;
+    text-align: center;
     h3 {
       font-size: 20px;
       margin-bottom: 14px;
