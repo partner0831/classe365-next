@@ -99,10 +99,12 @@ export const StreamlineTextWrapper = styled.div`
       h1 {
         font-size: 24px;
         margin-bottom: 12px;
+        text-align: center;
       }
-      l p {
+      p {
         font-size: 14px;
         line-height: 20px;
+        text-align: center;
       }
       img {
         display: block;
