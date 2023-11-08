@@ -123,6 +123,8 @@ export const RecommendedTabContent = styled.div`
 export const RecommededInfoWrapper = styled.div`
   max-width: 434px;
   width: 40%;
+  display: flex;
+  flex-direction: column;
   img {
     width: 56px;
     height: 56px;
@@ -145,6 +147,7 @@ export const RecommededInfoWrapper = styled.div`
     }
   }
   @media screen and (max-width: 768px) {
+    align-items: center;
     max-width: 100%;
     width: 100%;
     margin-bottom: 20px;

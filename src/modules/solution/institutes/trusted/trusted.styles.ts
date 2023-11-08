@@ -16,7 +16,7 @@ export const TrustedSectionWrapper = styled.div`
     font-weight: 500;
   }
   @media screen and (max-width: 768px) {
-    padding: 80px 0;
+    padding: 40px 0 0 0;
     p {
       font-size: 14px;
     }
@@ -48,5 +48,8 @@ export const ImageWrapper = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
+  }
+  @media screen and (max-width: 525px) {
+    gap: 20px;
   }
 `;
