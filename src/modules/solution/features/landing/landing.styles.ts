@@ -44,6 +44,9 @@ export const LandingInfoWrapper = styled.div`
     margin-bottom: 54px;
   }
   @media screen and (max-width: 1024px) {
+    h1, h4, p{
+      text-align: center;
+    }
     padding: 50px 0;
     div {
       max-width: 100%;
