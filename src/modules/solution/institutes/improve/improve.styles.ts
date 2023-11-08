@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 export const ImproveSectionWrapper = styled.div`
   max-width: 1240px;
   width: 95%;
-  margin: auto;
+  margin: 40px auto auto auto;
   h1 {
     max-width: 434px;
     width: 100%;
@@ -16,6 +16,7 @@ export const ImproveSectionWrapper = styled.div`
     h1 {
       font-size: 24px;
       margin-bottom: 24px;
+      text-align: center;
     }
   }
 `;
@@ -34,6 +35,7 @@ export const ImproveListWrapper = styled.div`
   @media screen and (max-width: 768px) {
     max-width: 100%;
     width: 100%;
+    text-align: center;
   }
 `;
 
