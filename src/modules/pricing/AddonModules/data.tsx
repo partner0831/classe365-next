@@ -3,7 +3,7 @@ import * as Shape from "@/components";
 export const addModules = [
   {
     icon: <Shape.Shape1 />,
-    to: "/solution/features/student",
+    to: "/solution/features/customer",
     image: "/assets/images/shapes/SIS.png",
     title: "CRM-Enrol & Forms",
     desc: "Want to make your admissions process easier? Check out Classe365's CRM-Enrol & Forms module! It helps you streamline enrollment, and create custom forms all in one place.",
