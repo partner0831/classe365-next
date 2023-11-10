@@ -162,6 +162,7 @@ export const FeatureListIteam = styled.div`
     padding-top: 48px;
   }
   @media screen and (max-width: 768px) {
+    padding: 50px 0;
     div {
       display: block;
       img {

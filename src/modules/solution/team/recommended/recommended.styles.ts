@@ -5,6 +5,7 @@ export const RecommendedWrapper = styled.div`
   padding: 100px 0;
   @media screen and (max-width: 768px) {
     margin-top: 60px;
+    padding: 40px 0;
   }
 `;
 

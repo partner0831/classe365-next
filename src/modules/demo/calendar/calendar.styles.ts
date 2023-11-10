@@ -20,8 +20,8 @@ export const CalendarWrapper = styled.div`
     font-weight: 400;
   }
   .calendly-inline-widget {
-    height: 600px !important;
-    max-width: 814px;
+    height: 800px !important;
+    max-width: 1014px;
     width: 100%;
   }
   /* @media screen and (max-width: 999px) {

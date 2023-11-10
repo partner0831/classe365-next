@@ -169,10 +169,12 @@ export const headerLeftNavs = [
   {
     label: "Pricing",
     to: "/pricing",
+    subMenu: [],
   },
   {
     label: "Free Resources",
     to: "/free",
+    subMenu: [],
   },
   {
     label: "More",
@@ -256,14 +258,6 @@ export const headerLeftNavs = [
             hoverIcon: <Icon.CustomerIcon className="hovered" />,
           },
         ],
-      },
-      {
-        label: "ROI Calculator",
-        to: "/roi",
-      },
-      {
-        label: "Digital Transformation Playbook",
-        to: "/playbook",
       },
     ],
   },
