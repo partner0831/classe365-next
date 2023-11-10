@@ -68,7 +68,7 @@ export const Features: React.FC<Props> = ({
               <h3>{item.title}</h3>
               <p>{item.description}</p>
               <div>
-                <img src={item.image} alt="" />
+                <img src={STRAPI_API + item.image?.url} alt="" />
               </div>
               <span>
                 {item.bullets?.map((bullet, index) => (
