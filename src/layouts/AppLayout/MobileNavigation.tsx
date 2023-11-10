@@ -23,6 +23,7 @@ export const MobileNavigation: React.FC<Props> = ({ onClose, open }) => {
           {headerLeftNavs.map((nav, index) => (
             <Comp.NavItem {...nav} key={index} />
           ))}
+
           {headerRightNavs.map((nav, index) => (
             <Comp.NavItem {...nav} key={index} />
           ))}

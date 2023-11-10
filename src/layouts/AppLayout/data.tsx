@@ -257,6 +257,14 @@ export const headerLeftNavs = [
           },
         ],
       },
+      {
+        label: "ROI Calculator",
+        to: "/roi",
+      },
+      {
+        label: "Digital Transformation Playbook",
+        to: "/playbook",
+      },
     ],
   },
 ];
