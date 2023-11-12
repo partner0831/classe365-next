@@ -35,6 +35,7 @@ const TeamBusiness: React.FC = () => {
         bg="#F1F6FA"
         titleColor="#1E2123"
         textColor="#3B3F42"
+        contentColor="#000"
         tabStyle={true}
       />
       <Section.Enjoy

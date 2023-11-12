@@ -42,11 +42,11 @@ export const EnjoyGridWrapper = styled.div`
   @media screen and (max-width: 1024px) {
     grid-gap: 40px 32px;
   }
-  @media screen and (max-width: 560px) {
+  @media screen and (max-width: 768px) {
     margin-top: 40px;
     grid-template-columns: repeat(2, 1fr);
   }
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 525px) {
     grid-gap: 20px;
     grid-template-columns: repeat(1, 1fr);
   }

@@ -40,6 +40,7 @@ const TeamAdministrator: React.FC = () => {
         bg="#F4FAF1"
         titleColor="#1E2123"
         textColor="#3B3F42"
+        contentColor="#000"
         tabStyle={true}
       />
       <Admission
