@@ -76,35 +76,9 @@ export const RecommendedTabWrapper = styled.div<{ tabStyle?: boolean }>`
     }
   }
   @media screen and (max-width: 1024px) {
-    span {
-      width: ${({ tabStyle }) => (tabStyle ? "220px" : "auto")};
-    }
+    display: none;
   }
-  @media screen and (max-width: 768px) {
-    padding: ${({ tabStyle }) => (tabStyle ? "6px" : "0px")};
-    & > :not(:first-child) {
-      margin-left: ${({ tabStyle }) => (tabStyle ? "8px" : "32px")};
-    }
-    span {
-      font-size: 16px;
-      width: ${({ tabStyle }) => (tabStyle ? "150px" : "auto")};
-      min-height: ${({ tabStyle }) => (tabStyle ? "40px" : "auto")};
-      &::after {
-        height: 3px;
-      }
-    }
-  }
-  @media screen and (max-width: 560px) {
-    span {
-      width: ${({ tabStyle }) => (tabStyle ? "100%" : "auto")};
-      padding: ${({ tabStyle }) => (tabStyle ? "0 20px" : "auto")};
-    }
-  }
-  @media screen and (max-width: 480px) {
-    & > :not(:first-child) {
-      margin-left: ${({ tabStyle }) => (tabStyle ? "8px" : "16px")};
-    }
-  }
+  
 `;
 
 export const RecommendedTabContent = styled.div`
@@ -114,6 +88,9 @@ export const RecommendedTabContent = styled.div`
   justify-content: space-between;
   &.show {
     display: flex;
+  }
+  @media screen and (max-width: 1024px) {
+    display: none !important;
   }
   @media screen and (max-width: 768px) {
     padding-top: 40px;
@@ -147,7 +124,7 @@ export const RecommededInfoWrapper = styled.div`
       margin-left: 8px;
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     align-items: center;
     max-width: 100%;
     width: 100%;
@@ -178,5 +155,91 @@ export const RecommendedImageWrapper = styled.div`
     max-width: 100%;
     width: 100%;
     margin-left: 0;
+  }
+`;
+export const InsititutionSwiper = styled.div`
+  display: none;
+  .institution-mobile{
+    display: none;
+  }
+  @media screen and (max-width: 1024px) {
+    .institution-mobile{
+      display: block;
+    }
+    .institution-desktop{
+      display: none;
+    }
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-top: 38px;
+    .swiper-slide {
+      max-width: 329px;
+      width: 100%;
+    }
+    .swiper {
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      height: auto;
+    }
+    .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+    }
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      background-color: #fff;
+    }
+  }
+`;
+export const InstitutionSwiperItemWrapper = styled.div`
+  padding: 32px 12px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  height: 100%;
+
+  h3 {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    padding-bottom: 16px;
+  }
+  .image-wrapper {
+    /* background: #d9d9d9; */
+    position: relative;
+    margin-bottom: 24px;
+    img {
+      width: 100%;
+    }
+  }
+  .info-wrapper {
+    display: flex;
+    border-radius: 10px;
+    background: #5a64cb;
+    box-shadow: 0px 4px 4px 0px rgba(97, 61, 27, 0.25) inset;
+    padding: 20px 14px;
+    color: #fff;
+    align-items: center;
+    h1 {
+      color: #fff;
+      text-align: center;
+      margin-right: 14px;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    span {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+    }
   }
 `;

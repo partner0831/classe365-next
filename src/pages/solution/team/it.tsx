@@ -34,7 +34,7 @@ const TeamIT: React.FC = () => {
         tabs={data?.recommend_tabs}
         title={data?.recommed_title}
         bg="#F5F1FA"
-        titleColor="#1E2123"
+        contentColor="#000"
         textColor="#3B3F42"
         tabStyle={true}
       />

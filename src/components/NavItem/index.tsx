@@ -5,7 +5,6 @@ import type * as Type from "@/types";
 import * as Styled from "./navItem.styles";
 import { headerLeftNavs } from "@/layouts/AppLayout/data";
 import Image from "next/image";
-
 export const NavItem: React.FC<Type.INavItemProps> = ({
   label,
   to,
@@ -77,7 +76,6 @@ export const NavItem: React.FC<Type.INavItemProps> = ({
       router.push(to);
     }
   };
-
   return (
     <Styled.NavItemWrapper
       ref={wrapperRef}
@@ -141,7 +139,7 @@ export const NavItem: React.FC<Type.INavItemProps> = ({
                 .subMenu?.map((mItem: any, mKey) => (
                   <Styled.SolutionsMegaMenuGridItem key={mKey}>
                     <h1>{mItem.label}</h1>
-                    {mItem?.subMenu.map((sItem: any, sKey: any) => (
+                    {mItem?.subMenu?.map((sItem: any, sKey: any) => (
                       <Styled.MegaMenuItemWrapper
                         key={sKey}
                         className={sItem.desc ? "" : "no-desc"}
@@ -183,44 +181,50 @@ export const NavItem: React.FC<Type.INavItemProps> = ({
               <Styled.MoreMegaMenuGrid>
                 {headerLeftNavs
                   .filter((f) => f.label === megaMenu)[0]
-                  .subMenu?.map((mItem: any, mKey) => (
-                    <Styled.SolutionsMegaMenuGridItem key={mKey}>
-                      <h1>{mItem.label}</h1>
-                      {mItem?.subMenu.map((sItem: any, sKey: any) => (
-                        <Styled.MegaMenuItemWrapper
-                          key={sKey}
-                          className={sItem.desc ? "" : "no-desc"}
-                          onClick={() => {
-                            setMegaMenu("");
-                            router.push(sItem.to);
-                          }}
-                          onMouseEnter={() => setHoveredMenu(sItem.to)}
-                          onMouseLeave={() => setHoveredMenu("")}
-                        >
-                          <div className="icon-wrapper">
-                            {sItem.icon ? (
-                              hoveredMenu === sItem.to ? (
-                                sItem.hoverIcon
-                              ) : (
-                                sItem.icon
-                              )
-                            ) : (
-                              <Image
-                                src={sItem.image}
-                                width={20}
-                                height={20}
-                                alt="image"
-                              />
-                            )}
-                          </div>
-                          <div className={`item-container`}>
-                            <h3>{sItem.label}</h3>
-                            <p>{sItem.desc}</p>
-                          </div>
-                        </Styled.MegaMenuItemWrapper>
-                      ))}
-                    </Styled.SolutionsMegaMenuGridItem>
-                  ))}
+                  .subMenu?.map(
+                    (mItem: any, mKey) =>
+                      !(
+                        mItem.label === "ROI Calculator" ||
+                        mItem.label === "Digital Transformation Playbook"
+                      ) && (
+                        <Styled.SolutionsMegaMenuGridItem key={mKey}>
+                          <h1>{mItem.label}</h1>
+                          {mItem?.subMenu?.map((sItem: any, sKey: any) => (
+                            <Styled.MegaMenuItemWrapper
+                              key={sKey}
+                              className={sItem.desc ? "" : "no-desc"}
+                              onClick={() => {
+                                setMegaMenu("");
+                                router.push(sItem.to);
+                              }}
+                              onMouseEnter={() => setHoveredMenu(sItem.to)}
+                              onMouseLeave={() => setHoveredMenu("")}
+                            >
+                              <div className="icon-wrapper">
+                                {sItem.icon ? (
+                                  hoveredMenu === sItem.to ? (
+                                    sItem.hoverIcon
+                                  ) : (
+                                    sItem.icon
+                                  )
+                                ) : (
+                                  <Image
+                                    src={sItem.image}
+                                    width={20}
+                                    height={20}
+                                    alt="image"
+                                  />
+                                )}
+                              </div>
+                              <div className={`item-container`}>
+                                <h3>{sItem.label}</h3>
+                                <p>{sItem.desc}</p>
+                              </div>
+                            </Styled.MegaMenuItemWrapper>
+                          ))}
+                        </Styled.SolutionsMegaMenuGridItem>
+                      )
+                  )}
               </Styled.MoreMegaMenuGrid>
               <Styled.MoreMegaMenuGitaWrapper>
                 <Styled.MoreMegaMenuROI onClick={() => router.push("/roi")}>
