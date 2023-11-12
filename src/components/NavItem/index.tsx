@@ -29,7 +29,6 @@ export const NavItem: React.FC<Type.INavItemProps> = ({
   const handleResize = () => {
     setWidth(window.innerWidth);
   };
-
   useEffect(() => {
     /**
      * Alert if clicked on outside of element
@@ -79,8 +78,8 @@ export const NavItem: React.FC<Type.INavItemProps> = ({
   return (
     <Styled.NavItemWrapper
       ref={wrapperRef}
-      onMouseEnter={subMenu ? handleNavClick : () => {}}
-      onMouseLeave={subMenu ? handleNavClick : () => {}}
+      onMouseEnter={width > 1024 && subMenu ? handleNavClick : () => {}}
+      onMouseLeave={width > 1024 && subMenu ? handleNavClick : () => {}}
     >
       <Styled.NavLabel
         // onMouseLeave={subMenu ? handleNavClick : () => {}}
@@ -94,23 +93,15 @@ export const NavItem: React.FC<Type.INavItemProps> = ({
           {subMenu?.map((item, key) => (
             <Styled.SubMenuItemWrapper
               key={key}
-              onMouseEnter={() =>
-                width > 1024
-                  ? item.subMenu
-                    ? setIsSubActive(item.label)
-                    : null
-                  : null
-              }
-              onMouseLeave={() => setIsSubActive("no-submenu")}
-              onClick={() =>
+              onClick={() => {
                 item.subMenu
                   ? width > 1024
                     ? {}
                     : setIsSubActive((prev) =>
                         prev === item.label ? "no-submenu" : item.label
                       )
-                  : router.push(item.to)
-              }
+                  : router.push(item.to);
+              }}
             >
               <span>{item.label}</span>
               {item.subMenu ? <BsChevronRight size={11} /> : null}
@@ -121,7 +112,11 @@ export const NavItem: React.FC<Type.INavItemProps> = ({
                 {item?.subMenu?.map((item1: any, key1: number) => (
                   <Styled.SubMenuItemWrapper
                     key={key1}
-                    onClick={() => (item1.subMenu ? {} : router.push(item1.to))}
+                    onClick={() =>
+                      item1.subMenu
+                        ? setIsSubActive(item.label)
+                        : router.push(item1.to)
+                    }
                   >
                     {item1.label}
                   </Styled.SubMenuItemWrapper>

@@ -33,8 +33,8 @@ export type IntroCardProps = {
   feature: string;
   description: string;
   content: string;
-  color:string;
-  key:number
+  color: string;
+  key?: number
 };
 export type IReviewCardProps = {
   header: string;

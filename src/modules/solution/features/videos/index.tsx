@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import { AiOutlineRight } from "react-icons/ai";
@@ -14,6 +14,8 @@ export const SolutionVideos: React.FC = () => {
     video?.play();
   };
   const [swiper, setSwiper] = useState<any | null>(null);
+  const [swiperMobile, setSwiperMobile] = useState<any | null>(null);
+
   return (
     <Styled.VideosWrapper>
       <h1>On-Demand Videos</h1>
@@ -37,6 +39,7 @@ export const SolutionVideos: React.FC = () => {
                   className={slideIndex === key1 ? "active" : ""}
                   onClick={() => {
                     swiper.slideTo(key1);
+                    swiperMobile.slideTo(key1);
                   }}
                 >
                   <span>
@@ -57,11 +60,11 @@ export const SolutionVideos: React.FC = () => {
                   className="mySwiper"
                   onSwiper={setSwiper}
                 >
-                  {videoData[0].data.map((video, key) => (
+                  {videoData[active].data.map((video, key) => (
                     <SwiperSlide key={key}>
                       <Styled.VideoSliderItem>
                         <div>
-                          <h3>{video.vtitle}</h3>
+                          <h3>{video.title}</h3>
                           <button
                             onClick={() =>
                               handleVideoPlay(`demo-video-${active}-${key}`)
@@ -92,7 +95,7 @@ export const SolutionVideos: React.FC = () => {
             onSlideChange={(e) => setSlideIndex(e.realIndex)}
             modules={[Pagination, Navigation]}
             className="mySwiper"
-            onSwiper={setSwiper}
+            onSwiper={setSwiperMobile}
           >
             {videoData[active].data.map((video, key) => (
               <SwiperSlide key={key}>

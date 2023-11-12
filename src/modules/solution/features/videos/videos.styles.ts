@@ -158,6 +158,12 @@ export const VideoTabItem = styled.div<{ active?: string }>`
       }
     }
   }
+  @media screen and (max-width: 425px) {
+   h3{
+     padding: 0 !important;
+   }
+  }
+
 `;
 
 export const VideoSliderItem = styled.div`
@@ -171,6 +177,9 @@ export const VideoSliderItem = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 425px) {
+      padding: 22px 10px;
+    }
     h3 {
       color: #fff;
       font-size: 18px;
