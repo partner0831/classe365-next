@@ -74,9 +74,9 @@ export const Spotlight: React.FC = () => {
             ))}
           </Swiper>
           <Styled.CustomNavigator className="page-sport">
-            <span className="prevS">
+            {/* <span className="prevS">
               <HiOutlineArrowLeft />
-            </span>
+            </span> */}
             <span className="nextS">
               <HiOutlineArrowRight />
             </span>

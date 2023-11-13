@@ -87,7 +87,7 @@ export const Line = styled.div`
 export const PlanContainer = styled.div`
   display: flex;
   padding: 28px 0;
-
+  align-items: center;
   .year-plan{
     position: relative;
     display: flex;
@@ -186,7 +186,8 @@ export const LandingCountWrapper= styled.div`
     bottom: 45px;
     top: -68px;
     border-radius: 30px;
-    background: linear-gradient(180deg, #A389F4, #89F4CD00 100%);
+    /* background: linear-gradient(180deg, rgba(137,244,205,1) 0%, rgba(163,137,244,1) 100%); */
+    background: linear-gradient(180deg, #A389F4 0%, rgba(137, 244, 205, 0.00) 100%);
   }
   &::before {
     content: "";
@@ -195,8 +196,10 @@ export const LandingCountWrapper= styled.div`
     right: 0;
     bottom: 0;
     top: 0;
-    border-radius: 30px;
-    background: rgba(255, 255, 255, 0.4);
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.40);
+
+    /* image elevations 1 */
     /* image elevations 1 */
     box-shadow: 0px 4px 20px 0px rgba(84, 84, 84, 0.25);
     z-index: 1;

@@ -10,7 +10,6 @@ export const Select: React.FC<ISelectProps> = ({
   placeholder,
   value,
 }) => {
-  console.log(options);
   return (
     <Styled.SelectWrapper>
       <span>{label}</span>
