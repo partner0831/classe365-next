@@ -88,6 +88,7 @@ export const PlanContainer = styled.div`
   display: flex;
   padding: 28px 0;
   align-items: center;
+  min-height: 130px !important;
   .year-plan{
     position: relative;
     display: flex;
