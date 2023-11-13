@@ -130,4 +130,30 @@ export const addModules = [
       "Keep track of your student's progress to make sure they stay on track and get their degree in a timely manner",
     ],
   },
+  {
+    icon: <Shape.Shape12 />,
+    to: "/solution/features/apps",
+    image: "/assets/images/shapes/education-agent.png",
+    title: "Education Agent Module",
+    desc: "Easily build and keep up with your network of education agents using Classe365's Education Agent Module! It's a great way to stay connected and manage your network.",
+    price: "$50/Month",
+    priceDesc: "(For every 1500 submission)",
+    bullets: [
+      "With Classe365's Degree Audit, you can quickly create custom course plans and follow your student's progress",
+      "Keep track of your student's progress to make sure they stay on track and get their degree in a timely manner",
+    ],
+  },
+  {
+    icon: <Shape.Shape12 />,
+    to: "/solution/features/apps",
+    image: "/assets/images/shapes/Enteprise-pro-plan.png",
+    title: "Enterprise Pro Plan",
+    desc: "Classe365's Enterprise Pro Plan gives you access to pro-level features, increased storage space, customisations, and more to help your school reach its full potential.",
+    price: "$50/Month",
+    priceDesc: "(For every 1500 submission)",
+    bullets: [
+      "With Classe365's Degree Audit, you can quickly create custom course plans and follow your student's progress",
+      "Keep track of your student's progress to make sure they stay on track and get their degree in a timely manner",
+    ],
+  },
 ];
