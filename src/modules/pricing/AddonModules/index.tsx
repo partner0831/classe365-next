@@ -23,9 +23,14 @@ export const AddonModules: React.FC = () => {
                   {row.title}
                 </h3>
                 <p>{row.desc}</p>
-                <a href={row.to}>
-                  <span>Learn More</span>
-                </a>
+                {!(
+                  row.title === "Education Agent Module" ||
+                  row.title === "Enterprise Pro Plan"
+                ) && (
+                  <a href={row.to}>
+                    <span>Learn More</span>
+                  </a>
+                )}
               </div>
               <div className="row2">
                 <h4>{row.price}</h4>
@@ -34,9 +39,14 @@ export const AddonModules: React.FC = () => {
               <div className="row3">
                 <div className="add-button">Add</div>
               </div>
-              <div className="row4">
-                <span>Learn More</span>
-              </div>
+              {!(
+                row.title === "Education Agent Module" ||
+                row.title === "Enterprise Pro Plan"
+              ) && (
+                <div className="row4">
+                  <span>Learn More</span>
+                </div>
+              )}
             </Styled.AddModuleTableRow>
           ))}
           {/* <div id="service"></div> */}

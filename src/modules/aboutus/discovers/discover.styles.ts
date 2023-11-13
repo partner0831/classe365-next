@@ -188,6 +188,7 @@ export const LandingCountWrapper= styled.div`
     top: -68px;
     border-radius: 30px;
     /* background: linear-gradient(180deg, rgba(137,244,205,1) 0%, rgba(163,137,244,1) 100%); */
+    
     background: linear-gradient(180deg, #A389F4 0%, rgba(137, 244, 205, 0.00) 100%);
   }
   &::before {
