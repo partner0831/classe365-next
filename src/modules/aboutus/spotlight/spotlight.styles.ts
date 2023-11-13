@@ -76,7 +76,6 @@ export const CustomNavigator = styled.div`
         cursor: pointer;
         width: 46px;
         height: 46px;
-        border: 1px solid #6772e5;
         border-radius: 9999px;
         &:not(:first-child) {
         margin-left: 12px;

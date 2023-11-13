@@ -30,4 +30,7 @@ export const SpotCardWrapper = styled.div<{color:string}>`
             font-size: 26px;
         }
     }
+    @media screen and (max-width:724px){
+        max-width: 100% !important;
+    }
 `
