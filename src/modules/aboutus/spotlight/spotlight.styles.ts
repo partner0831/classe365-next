@@ -38,14 +38,10 @@ export const SpotWrapper = styled.div`
     }
 `;
 export const SwiperContainer = styled.div`
-max-width: 1240px;
-width: 95%;
-margin: auto;
-    .swiper-slide{
-        /* width: 390px; */
-        max-width: 394px;
-        width: 100%;
-    }
+    max-width: 1240px;
+    width: 95%;
+    margin: auto;
+
   .swiper-pagination{
     display: none;
   }
