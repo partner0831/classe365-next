@@ -54,6 +54,10 @@ export const PlanCard = styled.div`
 
 `
 export const YearCard = styled.div`
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  top: 20px;
+  align-self: flex-start; 
   display: flex;
   flex-direction: column;
   svg{
