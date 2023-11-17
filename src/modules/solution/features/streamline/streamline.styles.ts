@@ -33,12 +33,16 @@ export const StreamlineWrapper = styled.div`
   }
 `;
 
-export const StreamlineStickyWrapper = styled.div``;
+export const StreamlineStickyWrapper = styled.div`
+  max-width: 1280px;
+  width: 95%;
+  margin: auto;
+`;
 
 export const StreamlineImageWrapper = styled.div`
   margin-left: auto;
   position: sticky;
-  width: 45%;
+  width: 55%;
   top: 0;
   height: 100vh;
   display: flex;
@@ -55,6 +59,7 @@ export const StreamlineImageWrapper = styled.div`
       /* image-rendering: pixelated; */
     }
   }
+
   @media screen and (max-width: 768px) {
     display: none;
   }
