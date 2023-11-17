@@ -102,6 +102,7 @@ export const LandingCountWrapper = styled.div`
     border-radius: 30px;
     background: rgba(255, 255, 255, 0.4);
     /* image elevations 1 */
+    border-radius: 30px;
     box-shadow: 0px 4px 20px 0px rgba(84, 84, 84, 0.25);
     z-index: 1;
   }
@@ -120,6 +121,9 @@ export const LandingCountWrapper = styled.div`
     margin-top: 45px;
     div:not(:last-child) {
       margin-bottom: 16px;
+    }
+    &::after {
+      height: 271px;
     }
   }
 `;

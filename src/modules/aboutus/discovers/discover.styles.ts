@@ -205,9 +205,6 @@ export const LandingCountWrapper= styled.div`
     top: 0;
     border-radius: 24px;
     background: rgba(255, 255, 255, 0.40);
-
-    /* image elevations 1 */
-    /* image elevations 1 */
     box-shadow: 0px 4px 20px 0px rgba(84, 84, 84, 0.25);
     z-index: 1;
   }
@@ -226,11 +223,15 @@ export const LandingCountWrapper= styled.div`
 
   }
   @media screen and (max-width:425px) {
+    padding: 48px 0px;
     p,span{
       max-width: 260px;
     }
     p{
       font-size: 20px;
+    }
+    &::after {
+      height: 271px;
     }
   }
 `
