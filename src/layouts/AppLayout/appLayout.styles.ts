@@ -5,7 +5,61 @@ export const AppLayoutWrapper = styled.div``;
 export const AppContentWrapper = styled.div`
   contain: content;
 `;
+export const HeaderView = styled.div`
 
+`;
+export const TopHeaderView = styled.div`
+    height: 38px;
+    background: #F2F2F2;
+    display: flex;
+    margin: auto;
+    & > div{
+      display: flex;
+      justify-content: space-between;
+      max-width: 1240px;
+      width: 95%;
+      margin: auto;
+    }
+    span{
+      color: var(--03, rgba(21, 29, 70, 0.79));
+      text-align: center;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: normal;
+    }
+`;
+
+export const TopHeaderLeft = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 177px;
+  svg:nth-child(2){
+    margin: 0 9px;
+  }
+  svg:nth-child(3){
+    margin: 0 30px;
+  }
+  svg:nth-child(4){
+    margin: 0 30px;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0 0 0 20px;
+    svg:nth-child(3){
+      margin: 0 10px;
+    }
+    svg:nth-child(4){
+      margin: 0 10px;
+    }
+  }
+`;
+export const TopHeaderRight = styled.div`
+   & > :not(:first-child) {
+    margin-left: 21px;
+  }
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
 export const HeaderWrapper = styled.div`
   position: relative;
   max-width: 1240px;
