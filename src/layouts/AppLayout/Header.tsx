@@ -33,6 +33,7 @@ export const Header: React.FC = () => {
           </Styled.TopHeaderRight>
         </div>
       </Styled.TopHeaderView> */}
+
       <Styled.HeaderWrapper>
         <Styled.HeaderNavWrapper>
           <Comp.AppLogo />
