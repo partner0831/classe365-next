@@ -12,13 +12,15 @@ export const TopHeaderView = styled.div`
     height: 38px;
     background: #F2F2F2;
     display: flex;
+    position: relative;
     margin: auto;
     & > div{
       display: flex;
+      align-items: flex-start;
       justify-content: space-between;
       max-width: 1240px;
       width: 95%;
-      margin: auto;
+      margin: auto; 
     }
     span{
       color: var(--03, rgba(21, 29, 70, 0.79));
@@ -31,8 +33,11 @@ export const TopHeaderView = styled.div`
 
 export const TopHeaderLeft = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   padding: 0 0 0 177px;
+  svg{
+    display: block;
+  }
   svg:nth-child(2){
     margin: 0 9px;
   }
@@ -41,11 +46,32 @@ export const TopHeaderLeft = styled.div`
   }
   svg:nth-child(4){
     margin: 0 30px;
+    cursor: pointer;
   }
+  span::after {
+      content: "";
+      background: transparent;
+      position: absolute;
+      bottom: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid white;
+    }
+  span:hover::before {
+      content: "";
+      background: transparent;
+      position: absolute;
+      bottom: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid white;
+    }
+
+
   @media screen and (max-width: 768px) {
     padding: 0 0 0 20px;
     svg:nth-child(3){
-      margin: 0 10px;
+      margin: 0 10px; 
     }
     svg:nth-child(4){
       margin: 0 10px;

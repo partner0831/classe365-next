@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
 
   return (
     <Styled.HeaderView>
-      <Styled.TopHeaderView>
+      {/* <Styled.TopHeaderView>
         <div>
           <Styled.TopHeaderLeft>
             <span>Product Suite</span>
@@ -32,7 +32,7 @@ export const Header: React.FC = () => {
             <span>Contact</span>
           </Styled.TopHeaderRight>
         </div>
-      </Styled.TopHeaderView>
+      </Styled.TopHeaderView> */}
       <Styled.HeaderWrapper>
         <Styled.HeaderNavWrapper>
           <Comp.AppLogo />
