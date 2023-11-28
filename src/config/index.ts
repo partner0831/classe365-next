@@ -1,1 +1,1 @@
-export const STRAPI_API = "http://54.183.205.86:1337";
+export const STRAPI_API = "http://13.57.37.102:1337";
